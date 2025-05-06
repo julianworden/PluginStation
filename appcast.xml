@@ -8,6 +8,7 @@
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>0.1.4-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:channel>beta</sparkle:channel>
             <description><![CDATA[
                 <p>
                 - Test beta channel functionality.
