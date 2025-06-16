@@ -8,7 +8,7 @@
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-<!--            <sparkle:channel>beta</sparkle:channel>-->
+            <sparkle:channel>beta</sparkle:channel>
             <description><![CDATA[
                 <p>
                 - I sure hope you see this update!
