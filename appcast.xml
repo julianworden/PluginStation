@@ -3,32 +3,32 @@
     <channel>
         <title>Plugin Station</title>
         <item>
-            <title>0.1.4.beta-1</title>
-            <pubDate>Sun, 04 May 2025 15:17:05 -0700</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.1.4-beta.1</sparkle:shortVersionString>
+            <title>0.1.0-beta.1</title>
+            <pubDate>Sun, 16 June 2025 04:45:00 -0700</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.0-beta.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:channel>beta</sparkle:channel>
             <description><![CDATA[
                 <p>
-                - Test beta channel functionality.
+                - Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian
                 </p>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/beta/Plugin.Station.dmg" length="20942933" type="application/octet-stream" sparkle:edSignature="dec1xznuEmpk0MwMrDiIybfdNu3e+h6zJ/MAO/Q039MyzZ5o+VlBI992ZyeTXKf3GfcLv3tDQTnZ/yWxhKANDg=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/beta/Plugin.Station.0.1.0-beta.1.dmg" length="20942933" type="application/octet-stream" sparkle:edSignature="dec1xznuEmpk0MwMrDiIybfdNu3e+h6zJ/MAO/Q039MyzZ5o+VlBI992ZyeTXKf3GfcLv3tDQTnZ/yWxhKANDg=="/>
         </item>
         
-        <item>
-            <title>0.1.3</title>
-            <pubDate>Sun, 04 May 2025 15:17:05 -0700</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <ul>
-                    <li>Increment build number so that Sparkle detects new version is available.</li>
-                </ul>
-            ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/beta/Plugin.Station.dmg" length="20942933" type="application/octet-stream" sparkle:edSignature="dec1xznuEmpk0MwMrDiIybfdNu3e+h6zJ/MAO/Q039MyzZ5o+VlBI992ZyeTXKf3GfcLv3tDQTnZ/yWxhKANDg=="/>
-        </item>
+<!--        <item>-->
+<!--            <title>0.1.3</title>-->
+<!--            <pubDate>Sun, 04 May 2025 15:17:05 -0700</pubDate>-->
+<!--            <sparkle:version>3</sparkle:version>-->
+<!--            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>-->
+<!--            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>-->
+<!--            <description><![CDATA[-->
+<!--                <ul>-->
+<!--                    <li>Increment build number so that Sparkle detects new version is available.</li>-->
+<!--                </ul>-->
+<!--            ]]></description>-->
+<!--            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/beta/Plugin.Station.dmg" length="20942933" type="application/octet-stream" sparkle:edSignature="dec1xznuEmpk0MwMrDiIybfdNu3e+h6zJ/MAO/Q039MyzZ5o+VlBI992ZyeTXKf3GfcLv3tDQTnZ/yWxhKANDg=="/>-->
+<!--        </item>-->
     </channel>
 </rss>
