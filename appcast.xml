@@ -3,6 +3,21 @@
     <channel>
         <title>Plugin Station</title>
         <item>
+            <title>0.1.0</title>
+            <pubDate>Sun, 16 June 2025 04:45:00 -0700</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+<!--            <sparkle:channel>beta</sparkle:channel>-->
+            <description><![CDATA[
+                <p>
+                - I sure hope you see this update!
+                </p>
+            ]]></description>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/beta/Plugin.Station.0.1.0-beta.1.dmg" length="20942933" type="application/octet-stream" sparkle:edSignature="dec1xznuEmpk0MwMrDiIybfdNu3e+h6zJ/MAO/Q039MyzZ5o+VlBI992ZyeTXKf3GfcLv3tDQTnZ/yWxhKANDg=="/>
+        </item>
+        
+        <item>
             <title>0.1.0-beta.1</title>
             <pubDate>Sun, 16 June 2025 04:45:00 -0700</pubDate>
             <sparkle:version>1</sparkle:version>
