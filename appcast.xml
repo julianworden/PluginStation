@@ -3,18 +3,31 @@
     <channel>
         <title>Plugin Station</title>        
         <item>
-            <title>0.1.0-beta.1</title>
+            <title>0.1.0-beta.2</title>
             <pubDate>Sun, 16 June 2025 04:45:00 -0700</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.1.0-beta.1</sparkle:shortVersionString>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.0-beta.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <sparkle:channel>beta</sparkle:channel>
             <description><![CDATA[
-                <p>
-                - Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian
-                </p>
+                <ul>
+                    <li>
+                        Fix bugs with installed DAW scanning and presentation. <strong>In order for these changes to take effect, the user must rescan their installed DAWs in Settings &gt; Installed Software &gt; Rescan Installed DAWs</strong>
+                        <ul>
+                        <li>
+                            Fix a bug where, for users with certain installed DAWs, Plugin Station would indicate that other versions of those DAWs are installed, even though they aren't
+                        </li>
+                        <li>
+                            Fix an issue in the Installed DAWs tab where users with many installed DAWs will not see all of their installed DAWs
+                        </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Users will now receive an email, a macOS system notification, and a notification in the Notifications tab of Plugin Station when new plugins that they have installed are added to the Plugin Station database. These notifications serve to inform the user that they can now perform more operations with these plugins, and they are sent in batches by the Plugin Station admin that's performing the plugin creation. Clicking one of these system notifications will open Plugin Station and take the user to a screen with more details about it.
+                    </li>
+                </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/beta/Plugin.Station.0.1.0-beta.1.dmg" length="20942933" type="application/octet-stream" sparkle:edSignature="dec1xznuEmpk0MwMrDiIybfdNu3e+h6zJ/MAO/Q039MyzZ5o+VlBI992ZyeTXKf3GfcLv3tDQTnZ/yWxhKANDg=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/beta/Plugin.Station.0.1.0-beta.2.dmg" length="20942933" type="application/octet-stream" sparkle:edSignature="dec1xznuEmpk0MwMrDiIybfdNu3e+h6zJ/MAO/Q039MyzZ5o+VlBI992ZyeTXKf3GfcLv3tDQTnZ/yWxhKANDg=="/>
         </item>
     </channel>
 </rss>
