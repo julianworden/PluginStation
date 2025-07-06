@@ -12,7 +12,7 @@
             <description><![CDATA[
                 <ul>
                     <li>The first ever public, non-beta version of Plugin Station</li>
-                    <li>Fix a bug where plugin versions may unexpectedly appear to have a "." at the end under some circumstances</li>
+                    <li>Fix a bug where plugin versions may unexpectedly appear to have a "." at the end under some circumstances. Please rescan your plugins in Settings > Rescan Installed Plugins so that this change can take affect.</li>
                     <li>The app icon now shows a badge indicating the user's number of unread notifications, if they've provided permission to show the badge</li>
                     <li>Fix various bugs for admins</li>
                 </ul>
