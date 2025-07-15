@@ -4,6 +4,10 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.0.1
+- Fix a bug where Plugin Station would occasionally crash on startup
+- Update third party SDKs to prevent future bugs
+
 ### v1.0.0
 - The first ever public, non-beta version of Plugin Station
 - Fix a bug where plugin versions may unexpectedly appear to have a "." at the end under some circumstances

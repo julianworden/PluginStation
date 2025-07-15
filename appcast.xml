@@ -4,20 +4,18 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.0</title>
-            <pubDate>Sun, 06 Jul 2025 14:12:32 -0700</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <title>1.0.1</title>
+            <pubDate>Mon, 14 Jul 2025 17:12:47 -0700</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>The first ever public, non-beta version of Plugin Station</li>
-                    <li>Fix a bug where plugin versions may unexpectedly appear to have a "." at the end under some circumstances</li>
-                    <li>The app icon now shows a badge indicating the user's number of unread notifications, if they've provided permission to show the badge</li>
-                    <li>Fix various bugs for admins</li>
+                    <li>Fix a bug where Plugin Station would occasionally crash on startup</li>
+                    <li>Update third party SDKs to prevent future bugs</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.0.dmg" length="22424158" type="application/octet-stream" sparkle:edSignature="9E1i2WhxurluLtkxXjPfVZrWpv6aq02aGNNB3Iq8b3k81Vz6kt3B99Qk48rJXxMu8tNYm1bdrJ5+6Y22Ab8CBQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.1.dmg" length="23419181" type="application/octet-stream" sparkle:edSignature="cY+fG1qlicX9AysEP2LT0iqa2lJFkuonCwboORZZRypccdaU28Ci0ZVp5nr2ymNCePZrwQQLuAdICeUkI3/tAw=="/>
         </item>
         
         <item>
