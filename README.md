@@ -6,6 +6,7 @@ Here are the release notes for all public and beta versions of Plugin Station.
 
 ### v1.0.1
 - Fix a bug where Plugin Station would occasionally crash on startup
+- Fix a bug where a plugin's details screen was showing an incorrect value for whether or not that plugin is available as a perpetual license
 - Update third party SDKs to prevent future bugs
 
 ### v1.0.0

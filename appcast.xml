@@ -12,6 +12,7 @@
             <description><![CDATA[
                 <ul>
                     <li>Fix a bug where Plugin Station would occasionally crash on startup</li>
+                    <li>Fix a bug where a plugin's details screen was showing an incorrect value for whether or not that plugin is available as a perpetual license</li>
                     <li>Update third party SDKs to prevent future bugs</li>
                 </ul>
             ]]></description>
