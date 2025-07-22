@@ -4,6 +4,9 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.0.3
+- Fix a bug causing some users to see a "Trouble reaching the Branch servers. Please try again shortly" error message when attempting to purchase a subscription.
+
 ### v1.0.2
 - Fix a bug causing some users to experience crashes during plugin scanning
 - Fix a bug causing some users to be unable to purchase a subscription during onboarding

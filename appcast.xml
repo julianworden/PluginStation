@@ -4,19 +4,17 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.2</title>
-            <pubDate>Mon, 21 Jul 2025 19:56:14 -0700</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <title>1.0.3</title>
+            <pubDate>Tue, 22 Jul 2025 08:53:53 -0700</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>Fix a bug causing some users to experience crashes during plugin scanning</li>
-                    <li>Fix a bug causing some users to be unable to purchase a subscription during onboarding</li>
-                    <li>Improve messaging after plugin scan to better explain that plugins are regularly added to the Plugin Station database in order from most frequently installed to least frequently installed, and that notification emails are sent out to all users whenever an update relevant to them occurs</li>
+                    <li>Fix a bug causing some users to see a "Trouble reaching the Branch servers. Please try again shortly" error message when attempting to purchase a subscription.</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.2.dmg" length="23431237" type="application/octet-stream" sparkle:edSignature="SiVH8bu9NKf6jNgHWxLTbLs4Kn4z+anS5Yp6lxTxeTm8zJWYyDUCXKDvjmaHXvHwroTvRGNsSnX7c5eC0ezyBg=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.3.dmg" length="23432026" type="application/octet-stream" sparkle:edSignature="37TNT986W2XrdYkwRRs7RX5qo25VEqK5/KYyhCk3fxmGCXVHMmnQ4Ui7/+4O6pEiM/6n5jsAIHCq7lM+yZI9Ag=="/>
         </item>
         
         <item>
