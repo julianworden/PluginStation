@@ -4,19 +4,19 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.1</title>
-            <pubDate>Mon, 14 Jul 2025 17:12:47 -0700</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <title>1.0.2</title>
+            <pubDate>Mon, 21 Jul 2025 19:56:14 -0700</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>Fix a bug where Plugin Station would occasionally crash on startup</li>
-                    <li>Fix a bug where a plugin's details screen was showing an incorrect value for whether or not that plugin is available as a perpetual license</li>
-                    <li>Update third party SDKs to prevent future bugs</li>
+                    <li>Fix a bug causing some users to experience crashes during plugin scanning</li>
+                    <li>Fix a bug causing some users to be unable to purchase a subscription during onboarding</li>
+                    <li>Improve messaging after plugin scan to better explain that plugins are regularly added to the Plugin Station database in order from most frequently installed to least frequently installed, and that notification emails are sent out to all users whenever an update relevant to them occurs</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.1.dmg" length="23419181" type="application/octet-stream" sparkle:edSignature="cY+fG1qlicX9AysEP2LT0iqa2lJFkuonCwboORZZRypccdaU28Ci0ZVp5nr2ymNCePZrwQQLuAdICeUkI3/tAw=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.2.dmg" length="23431237" type="application/octet-stream" sparkle:edSignature="SiVH8bu9NKf6jNgHWxLTbLs4Kn4z+anS5Yp6lxTxeTm8zJWYyDUCXKDvjmaHXvHwroTvRGNsSnX7c5eC0ezyBg=="/>
         </item>
         
         <item>

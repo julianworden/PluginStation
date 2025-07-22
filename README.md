@@ -4,6 +4,11 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.0.2
+- Fix a bug causing some users to experience crashes during plugin scanning
+- Fix a bug causing some users to be unable to purchase a subscription during onboarding
+- Improve messaging after plugin scan to better explain that plugins are regularly added to the Plugin Station database in order from most frequently installed to least frequently installed, and that notification emails are sent out to all users whenever an update relevant to them occurs
+
 ### v1.0.1
 - Fix a bug where Plugin Station would occasionally crash on startup
 - Fix a bug where a plugin's details screen was showing an incorrect value for whether or not that plugin is available as a perpetual license
