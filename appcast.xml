@@ -4,17 +4,19 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.3</title>
-            <pubDate>Tue, 22 Jul 2025 08:53:53 -0700</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <title>1.0.4</title>
+            <pubDate>Sat, 26 Jul 2025 12:32:22 -0700</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>Fix a bug causing some users to see a "Trouble reaching the Branch servers. Please try again shortly" error message when attempting to purchase a subscription.</li>
+                    <li>Fix bug where user may be stuck at app startup if an error is thrown after detecting changes to installed plugins</li>
+                    <li>Add verbiage to Installed Plugin rescan screen to make it clearer that the preparation for rescan may take a couple minutes</li>
+                    <li>Fix bug where enabling the Manufacturer filter for plugins but not actually selecting a manufacturer would cause a "Failed to perform search, received unexpected response with code: 400. Please try again." error message.</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.3.dmg" length="23432026" type="application/octet-stream" sparkle:edSignature="37TNT986W2XrdYkwRRs7RX5qo25VEqK5/KYyhCk3fxmGCXVHMmnQ4Ui7/+4O6pEiM/6n5jsAIHCq7lM+yZI9Ag=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.4.dmg" length="23420675" type="application/octet-stream" sparkle:edSignature="qw4u54jygMr94sKGe9YsPOwOhW2rGhpwJFTSHjARwaZw+zgaZ23dyy0pGT9asAZ+F7yuW473r6gEa+2Ly3T3AA=="/>
         </item>
         
         <item>

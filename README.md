@@ -4,6 +4,11 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.0.4
+- Fix bug where user may be stuck at app startup if an error is thrown after detecting changes to installed plugins
+- Add verbiage to Installed Plugin rescan screen to make it clearer that the preparation for rescan may take a couple minutes
+- Fix bug where enabling the Manufacturer filter for plugins but not actually selecting a manufacturer would cause a "Failed to perform search, received unexpected response with code: 400. Please try again." error message.
+
 ### v1.0.3
 - Fix a bug causing some users to see a "Trouble reaching the Branch servers. Please try again shortly" error message when attempting to purchase a subscription.
 
