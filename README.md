@@ -4,6 +4,11 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.0.5
+- Implement perpetual licenses. Perpetual licenses can now be purchased, upgraded, and used in Plugin Station
+- Fix bug where AAX plugins were not being scanned properly
+- Fix a bug where the user was not being properly redirected into the app after purchasing a new subscription or switching subscription plans
+
 ### v1.0.4
 - Fix bug where user may be stuck at app startup if an error is thrown after detecting changes to installed plugins
 - Add verbiage to Installed Plugin rescan screen to make it clearer that the preparation for rescan may take a couple minutes

@@ -4,19 +4,19 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.4</title>
-            <pubDate>Sat, 26 Jul 2025 12:32:22 -0700</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <title>1.0.5</title>
+            <pubDate>Mon, 28 Jul 2025 22:11:18 -0700</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>Fix bug where user may be stuck at app startup if an error is thrown after detecting changes to installed plugins</li>
-                    <li>Add verbiage to Installed Plugin rescan screen to make it clearer that the preparation for rescan may take a couple minutes</li>
-                    <li>Fix bug where enabling the Manufacturer filter for plugins but not actually selecting a manufacturer would cause a "Failed to perform search, received unexpected response with code: 400. Please try again." error message.</li>
+                    <li>Implement perpetual licenses. Perpetual licenses can now be purchased, upgraded, and used in Plugin Station</li>
+                    <li>Fix bug where AAX plugins were not being scanned properly</li>
+                    <li>Fix a bug where the user was not being properly redirected into the app after purchasing a new subscription or switching subscription plans</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.4.dmg" length="23420675" type="application/octet-stream" sparkle:edSignature="qw4u54jygMr94sKGe9YsPOwOhW2rGhpwJFTSHjARwaZw+zgaZ23dyy0pGT9asAZ+F7yuW473r6gEa+2Ly3T3AA=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.5.dmg" length="23635866" type="application/octet-stream" sparkle:edSignature="ajpbtDF/jQOcAp5EOcpZB2HDfziqqRx4fw+19RzD4QiaCX3lgyMJ4Of5NTZIwMlN2yQF+yzqyOwbdkgss627CA=="/>
         </item>
         
         <item>
