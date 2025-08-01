@@ -4,17 +4,18 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.6</title>
-            <pubDate>Tue, 29 Jul 2025 15:58:54 -0700</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <title>1.0.7</title>
+            <pubDate>Fri, 01 Aug 2025 09:49:28 -0700</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>Fix bug where some users experience an infinite loading screen after making changes to installed plugins, and reopening the app</li>
+                    <li>Fix a bug where uninstalling a plugin while the app is or is not running may cause a crash under some conditions</li>
+                    <li>Fix a bug where the app was not properly handling when an email address with both uppercase and lowercase letters was entered during account creation</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.6.dmg" length="23634152" type="application/octet-stream" sparkle:edSignature="vcVehI8xTBwR8ih3x78HzUQwbG2sqhPy2pu28iXZEho92AQPvgEuxlA+FmkOuYX2iIR2Vwk/kCHFK7kKK+I/AQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.7.dmg" length="23636799" type="application/octet-stream" sparkle:edSignature="N8tgiTPvlRxxaa0ZUXqtNImdSYzYjDvlkBitXb39Bu3J2XPndrCQYMSE3sAX/7pNZXlb/g44oenA1F70MTFbDg=="/>
         </item>
         
         <item>

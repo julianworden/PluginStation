@@ -4,6 +4,10 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.0.7
+- Fix a bug where uninstalling a plugin while the app is or is not running may cause a crash under some conditions
+- Fix a bug where the app was not properly handling when an email address with both uppercase and lowercase letters was entered during account creation
+
 ### v1.0.6
 - Fix bug where some users experience an infinite loading screen after making changes to installed plugins and reopening the app
 
