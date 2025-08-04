@@ -4,6 +4,10 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.0.8
+- Implement CMD + ',' keyboard shortcut to open app preferences to follow standard macOS conventions. Also add a 'Preferences' button to the Plugin Station tab in the macOS menu bar for the same reason
+- Further improve stability when a plugin is uninstalled both when the app is and is not running
+
 ### v1.0.7
 - Fix a bug where uninstalling a plugin while the app is or is not running may cause a crash under some conditions
 - Fix a bug where the app was not properly handling when an email address with both uppercase and lowercase letters was entered during account creation

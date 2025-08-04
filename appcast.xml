@@ -4,18 +4,18 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.7</title>
-            <pubDate>Fri, 01 Aug 2025 09:49:28 -0700</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <title>1.0.8</title>
+            <pubDate>Sun, 03 Aug 2025 20:48:46 -0700</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>Fix a bug where uninstalling a plugin while the app is or is not running may cause a crash under some conditions</li>
-                    <li>Fix a bug where the app was not properly handling when an email address with both uppercase and lowercase letters was entered during account creation</li>
+                    <li>Implement CMD + ',' keyboard shortcut to open app preferences to follow standard macOS conventions. Also add a 'Preferences' button to the Plugin Station tab in the macOS menu bar for the same reason</li>
+                    <li>Further improve stability when a plugin is uninstalled both when the app is and is not running</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.7.dmg" length="23636799" type="application/octet-stream" sparkle:edSignature="N8tgiTPvlRxxaa0ZUXqtNImdSYzYjDvlkBitXb39Bu3J2XPndrCQYMSE3sAX/7pNZXlb/g44oenA1F70MTFbDg=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.8.dmg" length="23642439" type="application/octet-stream" sparkle:edSignature="Gz3LRnrx+PlGQc6aqX25RrlzMYvzEkxoEAQVrkYIhBm/LLAroEtqJKb2/sLNDlifDuNlc2XkGPqGF5XRr3hABg=="/>
         </item>
         
         <item>
