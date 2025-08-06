@@ -4,6 +4,11 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.0.9
+- Fix a bug where a superseded plugin system warning would show up for plugins that have the superseded and superseding plugin installed. No longer will a warning be shown for a superseded plugin if the latest plugin that supersedes it is installed
+- Fix a bug where the app does not properly handle plugins that have the same name as another plugin in the database. This is now handled properly both during plugin scanning, and when changes happen during and not during app operation
+- Fix 2 bugs in the screen that shows when plugin changes are made when the app is or is not running. The first was showing irrelevant installed version change data when a single format for a plugin was uninstalled/installed. The second was affecting what would happen if 2 plugins with the same name were changed at the same time. Only one of the 2 plugins was showing up, now both are
+
 ### v1.0.8
 - Implement CMD + ',' keyboard shortcut to open app preferences to follow standard macOS conventions. Also add a 'Preferences' button to the Plugin Station tab in the macOS menu bar for the same reason
 - Further improve stability when a plugin is uninstalled both when the app is and is not running

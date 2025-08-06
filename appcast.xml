@@ -4,18 +4,19 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.8</title>
-            <pubDate>Sun, 03 Aug 2025 20:48:46 -0700</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <title>1.0.9</title>
+            <pubDate>Wed, 06 Aug 2025 14:40:37 -0700</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>Implement CMD + ',' keyboard shortcut to open app preferences to follow standard macOS conventions. Also add a 'Preferences' button to the Plugin Station tab in the macOS menu bar for the same reason</li>
-                    <li>Further improve stability when a plugin is uninstalled both when the app is and is not running</li>
+                <li>Fix a bug where a superseded plugin system warning would show up for plugins that have the superseded and superseding plugin installed. No longer will a warning be shown for a superseded plugin if the latest plugin that supersedes it is installed</li>
+                <li>Fix a bug where the app does not properly handle plugins that have the same name as another plugin in the database. This is now handled properly both during plugin scanning, and when changes happen during and not during app operation</li>
+                <li>Fix 2 bugs in the screen that shows when plugin changes are made when the app is or is not running. The first was showing irrelevant installed version change data when a single format for a plugin was uninstalled/installed. The second was affecting what would happen if 2 plugins with the same name were changed at the same time. Only one of the 2 plugins was showing up, now both are.</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.8.dmg" length="23642439" type="application/octet-stream" sparkle:edSignature="Gz3LRnrx+PlGQc6aqX25RrlzMYvzEkxoEAQVrkYIhBm/LLAroEtqJKb2/sLNDlifDuNlc2XkGPqGF5XRr3hABg=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.9.dmg" length="23655311" type="application/octet-stream" sparkle:edSignature="rLYn71WIqPNVIPxyYmpJmM0zrONYlBd6beuNL3+pvhtuuIEyFih6+Ph8i8w28eQXmxM8fK/GKPRyo9N4eUUCDg=="/>
         </item>
         
         <item>
