@@ -4,6 +4,10 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.0.10
+- The user is now prompted to indicate how they heard about Plugin Station during onboarding
+- The user is now prompted to provide a cancellation reason when they are cancelling their subscription
+
 ### v1.0.9
 - Fix a bug where a superseded plugin system warning would show up for plugins that have the superseded and superseding plugin installed. No longer will a warning be shown for a superseded plugin if the latest plugin that supersedes it is installed
 - Fix a bug where the app does not properly handle plugins that have the same name as another plugin in the database. This is now handled properly both during plugin scanning, and when changes happen during and not during app operation
