@@ -4,18 +4,105 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.10</title>
-            <pubDate>Fri, 08 Aug 2025 21:40:38 -0700</pubDate>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <title>1.0.11</title>
+            <pubDate>Mon, 11 Aug 2025 15:16:54 -0700</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.0.11 (08/11/25)</h3>
+                <ul>
+                    <li>Fix a bug where a "Trouble reaching the Branch servers, please try again shortly." error message was occasionally being shown to some users when clicking a plugin in the Browse Plugins list</li>
+                </ul>
+
+                <h3>v1.0.10 (08/08/25)</h3>
                 <ul>
                     <li>The user is now prompted to indicate how they heard about Plugin Station during onboarding</li>
                     <li>The user is now prompted to provide a cancellation reason when they are cancelling their subscription</li>
                 </ul>
+
+                <h3>v1.0.9 (08/06/25)</h3>
+                <ul>
+                    <li>Fix a bug where a superseded plugin system warning would show up for plugins that have the superseded and superseding plugin installed. No longer will a warning be shown for a superseded plugin if the latest plugin that supersedes it is installed</li>
+                    <li>Fix a bug where the app does not properly handle plugins that have the same name as another plugin in the database. This is now handled properly both during plugin scanning, and when changes happen during and not during app operation</li>
+                    <li>Fix 2 bugs in the screen that shows when plugin changes are made when the app is or is not running. The first was showing irrelevant installed version change data when a single format for a plugin was uninstalled/installed. The second was affecting what would happen if 2 plugins with the same name were changed at the same time. Only one of the 2 plugins was showing up, now both are</li>
+                </ul>
+
+                <h3>v1.0.8 (08/03/25)</h3>
+                <ul>
+                    <li>Implement CMD + ',' keyboard shortcut to open app preferences to follow standard macOS conventions. Also add a 'Preferences' button to the Plugin Station tab in the macOS menu bar for the same reason</li>
+                    <li>Further improve stability when a plugin is uninstalled both when the app is and is not running</li>
+                </ul>
+
+                <h3>v1.0.7 (08/01/25)</h3>
+                <ul>
+                    <li>Fix a bug where uninstalling a plugin while the app is or is not running may cause a crash under some conditions</li>
+                    <li>Fix a bug where the app was not properly handling when an email address with both uppercase and lowercase letters was entered during account creation</li>
+                </ul>
+
+                <h3>v1.0.6 (07/29/25)</h3>
+                <ul>
+                    <li>Fix bug where some users experience an infinite loading screen after making changes to installed plugins and reopening the app</li>
+                </ul>
+
+                <h3>v1.0.5 (07/28/25)</h3>
+                <ul>
+                    <li>Implement perpetual licenses. Perpetual licenses can now be purchased, upgraded, and used in Plugin Station</li>
+                    <li>Fix bug where AAX plugins were not being scanned properly</li>
+                    <li>Fix a bug where the user was not being properly redirected into the app after purchasing a new subscription or switching subscription plans</li>
+                </ul>
+
+                <h3>v1.0.4 (07/26/25)</h3>
+                <ul>
+                    <li>Fix bug where user may be stuck at app startup if an error is thrown after detecting changes to installed plugins</li>
+                    <li>Add verbiage to Installed Plugin rescan screen to make it clearer that the preparation for rescan may take a couple minutes</li>
+                    <li>Fix bug where enabling the Manufacturer filter for plugins but not actually selecting a manufacturer would cause a "Failed to perform search, received unexpected response with code: 400. Please try again." error message.</li>
+                </ul>
+
+                <h3>v1.0.3 (07/22/25)</h3>
+                <ul>
+                    <li>Fix a bug causing some users to see a "Trouble reaching the Branch servers. Please try again shortly" error message when attempting to purchase a subscription.</li>
+                </ul>
+
+                <h3>v1.0.2 (07/21/25)</h3>
+                <ul>
+                    <li>Fix a bug causing some users to experience crashes during plugin scanning</li>
+                    <li>Fix a bug causing some users to be unable to purchase a subscription during onboarding</li>
+                    <li>Improve messaging after plugin scan to better explain that plugins are regularly added to the Plugin Station database in order from most frequently installed to least frequently installed, and that notification emails are sent out to all users whenever an update relevant to them occurs</li>
+                </ul>
+
+                <h3>v1.0.1 (07/14/25)</h3>
+                <ul>
+                    <li>Fix a bug where Plugin Station would occasionally crash on startup</li>
+                    <li>Fix a bug where a plugin's details screen was showing an incorrect value for whether or not that plugin is available as a perpetual license</li>
+                    <li>Update third party SDKs to prevent future bugs</li>
+                </ul>
+
+                <h3>v1.0.0 (07/06/25)</h3>
+                <ul>
+                    <li>The first ever public, non-beta version of Plugin Station</li>
+                    <li>Fix a bug where plugin versions may unexpectedly appear to have a "." at the end under some circumstances</li>
+                    <li>The app icon now shows a badge indicating the user's number of unread notifications, if they've provided permission to show the badge</li>
+                    <li>Fix various bugs for admins</li>
+                </ul>
+
+                <h3>v0.1.0-beta.2 (06/30/25)</h3>
+                <ul>
+                    <li>Fix bugs with installed DAW scanning and presentation. <strong>In order for these to changes to take effect, the user must rescan their installed DAWs in Settings &gt; Installed Software &gt; Rescan Installed DAWs</strong>
+                        <ul>
+                            <li>Fix a bug where, for users with certain installed DAWs, Plugin Station would indicate that other versions of those DAWs are installed, even though they aren't</li>
+                            <li>Fix an issue in the Installed DAWs tab where users with many installed DAWs will not see all of there installed DAWs</li>
+                        </ul>
+                    </li>
+                    <li>Users will now receive an email, a macOS system notification, and a notification in the Notifications tab of Plugin Station when new plugins that they have installed are added to the Plugin Station database. These notifications serve to inform the user that they can now perform more operations with these plugins, and they are sent in batches by the Plugin Station admin that's performing the plugin creation. Clicking one of these system notifications will open Plugin Station and take the user to a screen with more details about it.</li>
+                </ul>
+
+                <h3>v0.1.0-beta.1 (06/15/25)</h3>
+                <ul>
+                    <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
+                </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.10.dmg" length="23713671" type="application/octet-stream" sparkle:edSignature="/D7D64CbtKbRHuLBxtntmmBsIe2/YAYCp+bJdk1SgJEzUpfRkHl4mpCpzrp4RRXiDTszoM6MDhO252NCT+y5AQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.11.dmg" length="23717322" type="application/octet-stream" sparkle:edSignature="p9EYTIeDWgM2TmA+YYmLE2UsBk3ocTvDs0ULnKusaPsU1c03IAMPJ98mywhpErXQbfO8KlIU84TYsKngCscBBw=="/>
         </item>
         
         <item>
