@@ -4,12 +4,18 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.11</title>
-            <pubDate>Mon, 11 Aug 2025 15:16:54 -0700</pubDate>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <title>1.0.12</title>
+            <pubDate>Thu, 14 Aug 2025 17:55:20 -0700</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.0.12 (08/14/25)</h3>
+                <ul>
+                    <li>NEW FEATURE: Due to popular demand, you can now "Ignore" plugins in System Warnings! Simply click the Ignore button next to a plugin in a System Warning to ignore it, or use the checkboxes to select and ignore multiple plugins at a time. NOTE: Only recognized plugins with known manufacturer information can be ignored, and ignoring a plugin will stop it from triggering any and all system warnings</li>
+                    <li>Add a "Release Notes" button to the Plugin Station tab in the macOS Menu Bar. Click this button to open your browser and view a page where you can see the release notes for every version of Plugin Station</li>
+                </ul>
+                
                 <h3>v1.0.11 (08/11/25)</h3>
                 <ul>
                     <li>Fix a bug where a "Trouble reaching the Branch servers, please try again shortly." error message was occasionally being shown to some users when clicking a plugin in the Browse Plugins list</li>
@@ -102,7 +108,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.11.dmg" length="23717322" type="application/octet-stream" sparkle:edSignature="p9EYTIeDWgM2TmA+YYmLE2UsBk3ocTvDs0ULnKusaPsU1c03IAMPJ98mywhpErXQbfO8KlIU84TYsKngCscBBw=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.12.dmg" length="23914549" type="application/octet-stream" sparkle:edSignature="aU0k8XThO/XT2B/rxFrAR85cA7rZ6HSMCH9Pr0+r5HvxrMFdMATmDXysLZOqUk6w5D1i1CTAzFvwFVS0kOfvAQ=="/>
         </item>
         
         <item>
