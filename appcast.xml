@@ -13,7 +13,7 @@
                 <h3>v1.0.13 (08/15/25)</h3>
                 <ul>
                     <li>Fix bug where some plugins were appearing multiple times in the installed plugins list</li>
-                    <li>Fix bug where some DAWs were unexpectedly going undetected during DAW scanning</li>
+                    <li>Fix bug where some DAWs were unexpectedly going undetected during DAW scanning. NOTE: If you were experiencing this issue, please rescan your DAWs via Settings > Installed Software > Rescan Installed DAWs so that Plugin Station can detect your previously unreecognized DAWs</li>
                     <li>Fix bug where DAW version numbers were not being formatted correctly</li>
                 </ul>
                 

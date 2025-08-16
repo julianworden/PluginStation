@@ -6,7 +6,7 @@ Here are the release notes for all public and beta versions of Plugin Station.
 
 ### v1.0.13
 - Fix bug where some plugins were appearing multiple times in the installed plugins list
-- Fix bug where some DAWs were unexpectedly going undetected during DAW scanning
+- Fix bug where some DAWs were unexpectedly going undetected during DAW scanning. NOTE: If you were experiencing this issue, please rescan your DAWs via Settings > Installed Software > Rescan Installed DAWs so that Plugin Station can detect your previously unreecognized DAWs
 - Fix bug where DAW version numbers were not being formatted correctly
 
 ### v1.0.12
