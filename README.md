@@ -4,6 +4,11 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.0.14
+- Fix bug where an Out-Of-Date Plugins System Warning would show plugin formats as being out of date even if they weren't, but another one was. For example, if a plugin's VST file was out of date it would show that, but it would also show the VST3, AU, and AAX files as being out of date, even if they weren't
+- Clicking an Out-Of-Date Plugin Notification will now open up that notification in the Notifications list within the app
+- Fix a bug where an error message regarding an unexpectedly missing "Installed Manufacturer" would appear for some users after making changes to installed plugins during and not during app operation
+
 ### v1.0.13
 - Fix bug where some plugins were appearing multiple times in the installed plugins list
 - Fix bug where some DAWs were unexpectedly going undetected during DAW scanning. NOTE: If you were experiencing this issue, please rescan your DAWs via Settings > Installed Software > Rescan Installed DAWs so that Plugin Station can detect your previously unreecognized DAWs

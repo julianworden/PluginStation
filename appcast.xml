@@ -4,12 +4,19 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.13</title>
-            <pubDate>Fri, 15 Aug 2025 16:36:55 -0700</pubDate>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <title>1.0.14</title>
+            <pubDate>Sun, 24 Aug 2025 19:56:09 -0700</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.0.14 (08/15/25)</h3>
+                <ul>
+                    <li>Fix bug where an Out-Of-Date Plugins System Warning would show plugin formats as being out of date even if they weren't, but another one was. For example, if a plugin's VST file was out of date it would show that, but it would also show the VST3, AU, and AAX files as being out of date, even if they weren't</li>
+                    <li>Clicking an Out-Of-Date Plugin Notification will now open up that notification in the Notifications list within the app</li>
+                    <li>Fix a bug where an error message regarding an unexpectedly missing "Installed Manufacturer" would appear for some users after making changes to installed plugins during and not during app operation</li>
+                </ul>
+                
                 <h3>v1.0.13 (08/15/25)</h3>
                 <ul>
                     <li>Fix bug where some plugins were appearing multiple times in the installed plugins list</li>
@@ -115,7 +122,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.13.dmg" length="23925897" type="application/octet-stream" sparkle:edSignature="CjE0NOSX8RFl6qu+uwwDhAfic1a2cjvip0rgyg9WLrHkws8D+gEU93GIAwpjfSkifoq/wawVKnbj46djeuscAQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.14.dmg" length="23997101" type="application/octet-stream" sparkle:edSignature="eH6qtu3y7ZttjVPq98jmsJjoKSfjXW3LQ1cJ2onqL2PoljxaHxLTKCnFGXrOPVHdaM5LNpnTWnp9GI8gs7/CAQ=="/>
         </item>
         
         <item>
