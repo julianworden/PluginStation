@@ -15,7 +15,7 @@
                     <li>NEW FEATURE: Plugin Station now features a tab in the left sidebar named Uninstall Assistant, which allows the user to uninstall many plugins at a time</li>
                     <li>The user is no longer required to open a Finder window to delete plugin files. Instead, Plugin Station handles plugin uninstallation automatically</li>
                     <li>The app now shows a message in the bottom left corner when installed plugins are altered, as opposed to instantly updating when a change is detected. The user has to click this message in order to sync the changes</li>
-                    <li>The user is no longer prompted to use an installation manager for uninstalling if that installation manager is not capable of uninstallation plugins</li>
+                    <li>The user is no longer prompted to use an installation manager for uninstalling if that installation manager is not capable of uninstalling plugins</li>
                     <li>Manufacturer logos are now cached so that when they appear shortly after having already appeared, they load instantly</li>
                     <li>Show the user which plugin's data is being updated while the app is updating detected plugin changes</li>
                     <li>Fix a bug on macOS Ventura where Filter and Sort Options popups repeatedly appear and dismiss after clicking the button to present them</li>
