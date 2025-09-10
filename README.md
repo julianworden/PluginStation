@@ -4,6 +4,16 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.1.0
+- NEW FEATURE: Plugin Station now features a tab in the left sidebar named Uninstall Assistant, which allows the user to uninstall many plugins at a time
+- The user is no longer required to open a Finder window to delete plugin files. Instead, Plugin Station handles plugin uninstallation automatically
+- The app now shows a message in the bottom left corner when installed plugins are altered, as opposed to instantly updating when a change is detected. The user has to click this message in order to sync the changes
+- The user is no longer prompted to use an installation manager for uninstalling if that installation manager is not capable of uninstallation plugins
+- Manufacturer logos are now cached so that when they appear shortly after having already appeared, they load instantly
+- Show the user which plugin's data is being updated while the app is updating detected plugin changes
+- Fix a bug on macOS Ventura where Filter and Sort Options popups repeatedly appear and dismiss after clicking the button to present them
+- Fix a bug where uninstalling or installing many plugins at a time while the app is running was causing unexpected behavior
+
 ### v1.0.14
 - Fix bug where an Out-Of-Date Plugins System Warning would show plugin formats as being out of date even if they weren't, but another one was. For example, if a plugin's VST file was out of date it would show that, but it would also show the VST3, AU, and AAX files as being out of date, even if they weren't
 - Clicking an Out-Of-Date Plugin Notification will now open up that notification in the Notifications list within the app

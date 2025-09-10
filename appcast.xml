@@ -4,12 +4,24 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.0.14</title>
-            <pubDate>Sun, 24 Aug 2025 19:56:09 -0700</pubDate>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+            <title>1.1.0</title>
+            <pubDate>Tue, 09 Sep 2025 21:43:01 -0700</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.1.0 (09/09/25)</h3>
+                <ul>
+                    <li>NEW FEATURE: Plugin Station now features a tab in the left sidebar named Uninstall Assistant, which allows the user to uninstall many plugins at a time</li>
+                    <li>The user is no longer required to open a Finder window to delete plugin files. Instead, Plugin Station handles plugin uninstallation automatically</li>
+                    <li>The app now shows a message in the bottom left corner when installed plugins are altered, as opposed to instantly updating when a change is detected. The user has to click this message in order to sync the changes</li>
+                    <li>The user is no longer prompted to use an installation manager for uninstalling if that installation manager is not capable of uninstallation plugins</li>
+                    <li>Manufacturer logos are now cached so that when they appear shortly after having already appeared, they load instantly</li>
+                    <li>Show the user which plugin's data is being updated while the app is updating detected plugin changes</li>
+                    <li>Fix a bug on macOS Ventura where Filter and Sort Options popups repeatedly appear and dismiss after clicking the button to present them</li>
+                    <li>Fix a bug where uninstalling or installing many plugins at a time while the app is running was causing unexpected behavior</li>
+                </ul>
+                
                 <h3>v1.0.14 (08/15/25)</h3>
                 <ul>
                     <li>Fix bug where an Out-Of-Date Plugins System Warning would show plugin formats as being out of date even if they weren't, but another one was. For example, if a plugin's VST file was out of date it would show that, but it would also show the VST3, AU, and AAX files as being out of date, even if they weren't</li>
@@ -122,7 +134,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.0.14.dmg" length="23997101" type="application/octet-stream" sparkle:edSignature="eH6qtu3y7ZttjVPq98jmsJjoKSfjXW3LQ1cJ2onqL2PoljxaHxLTKCnFGXrOPVHdaM5LNpnTWnp9GI8gs7/CAQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.1.0.dmg" length="24290152" type="application/octet-stream" sparkle:edSignature="eZ9Mv+X7TAHXb9xNmBj4sWEfMg2eOXjzAqzYqUhRphFVuIa8j1vD+jftS7DruolsBW4uDwiqcTLYzP+0iwZmBA=="/>
         </item>
         
         <item>
