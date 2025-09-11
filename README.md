@@ -4,6 +4,11 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.1.1
+- Fix a bug where the icon was not appearing for the System Profiles tab in App Settings for macOS Ventura and Sonoma
+- Fix a bug in Uninstall Assistant on macOS Ventura where the uninstall window would reappear and become undismissable after uninstalling plugins
+- Fix a bug where the user would see an error message after launching the app if they did not have one of the default plugin folders on their system
+
 ### v1.1.0
 - NEW FEATURE: Plugin Station now features a tab in the left sidebar named Uninstall Assistant, which allows the user to uninstall many plugins at a time
 - The user is no longer required to open a Finder window to delete plugin files. Instead, Plugin Station handles plugin uninstallation automatically
