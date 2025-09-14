@@ -4,12 +4,24 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.1.1</title>
-            <pubDate>Wed, 10 Sep 2025 19:00:57 -0700</pubDate>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <title>1.1.2</title>
+            <pubDate>Sun, 14 Sep 2025 12:17:30 -0700</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.1.2 (09/14/25)</h3>
+                <ul>
+                    <li>Fix a bug where the app would sometimes tell the user that their plugins are out of sync, even though they aren't. This would usually be triggered by navigating through plugin folders in Finder without actually making any changes to any files</li>
+                    <li>Fix searching so that it returns a max of 25 results instead of the default 10.</li>
+                    <li>Fix bug in Storage Manager where "Total Hard Drive" had a chart color assigned to it even though that color would never actually appear in the chart since it was covered by all the other colors</li>
+                    <li>Make it so that black and white cannot be chart colors in Storage Manager because, depending on the user's color scheme, they will not be visible</li>
+                    <li>Fix a bug on macOS Ventura where searching for plugins will sometimes flicker the fetched plugins, and then show others as if no search occurred</li>
+                    <li>Fix a bug on macOS Ventura where opening the Browse Plugins or Installed Plugins List will sometimes cause a loop where batches are repeatedly fetched back to back, as opposed to the intended behavior where more plugins only load if the user scrolls down</li>
+                    <li>Fix a bug on macOS Ventura where many buttons were not sizing properly and were appearing vertically shorter than intended</li>
+                    <li>Fix a bug on macOS Ventura where, after rescanning DAWs, the window that appears would truncate most of its content instead of showing the user the DAWs that were found</li>
+                </ul>
+                
                 <h3>v1.1.1 (09/10/25)</h3>
                 <ul>
                     <li>Fix a bug where the icon was not appearing for the System Profiles tab in App Settings for macOS Ventura and Sonoma</li>
@@ -141,7 +153,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.1.1.dmg" length="24296139" type="application/octet-stream" sparkle:edSignature="Iqm5R+NNhGd/FYxCh+NdS3tUNlMKS6TPUzP+Y4LTp26NaClf3ywdwTba+fr/RWkKodvQLfZfSOfkIdjpcQNsAQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.1.2.dmg" length="24311681" type="application/octet-stream" sparkle:edSignature="oq7Vny3hQ0R0kEkV99bHQaNWU66tnF5drFbYYtSOO0KrgTGLXHK2bF7kCiN2QTGX7fH7A7ywlZoXofP+qq5IDA=="/>
         </item>
         
         <item>

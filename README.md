@@ -4,6 +4,16 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.1.2
+- Fix a bug where the app would sometimes tell the user that their plugins are out of sync, even though they aren't. This would usually be triggered by navigating through plugin folders in Finder without actually making any changes to any files
+- Fix searching so that it returns a max of 25 results instead of the default 10.
+- Fix bug in Storage Manager where "Total Hard Drive" had a chart color assigned to it even though that color would never actually appear in the chart since it was covered by all the other colors
+- Make it so that black and white cannot be chart colors in Storage Manager because, depending on the user's color scheme, they will not be visible
+- Fix a bug on macOS Ventura where searching for plugins will sometimes flicker the fetched plugins, and then show others as if no search occurred
+- Fix a bug on macOS Ventura where opening the Browse Plugins or Installed Plugins List will sometimes cause a loop where batches are repeatedly fetched back to back, as opposed to the intended behavior where more plugins only load if the user scrolls down
+- Fix a bug on macOS Ventura where many buttons were not sizing properly and were appearing vertically shorter than intended
+- Fix a bug on macOS Ventura where, after rescanning DAWs, the window that appears would truncate most of its content instead of showing the user the DAWs that were found
+
 ### v1.1.1
 - Fix a bug where the icon was not appearing for the System Profiles tab in App Settings for macOS Ventura and Sonoma
 - Fix a bug in Uninstall Assistant on macOS Ventura where the uninstall window would reappear and become undismissable after uninstalling plugins
