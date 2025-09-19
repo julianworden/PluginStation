@@ -4,6 +4,11 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.1.3
+- Fix a bug where the app was properly detecting installed plugin changes and notifying the user about them, but was not actually making the correct, corresponding change to the user's account for some plugins. If you were experiencing this issue, please check on the plugins in question after installing this update. If you still experience issues, perform an installed plugin rescan in Settings > Installed Software > Rescan Installed Plugins and you should not see this issue again. If you do, please contact support@julianmichaeltechnologies.com
+- Fix a bug in the out-of-date plugins system warning. Next to the manufacturer of each out-of-date plugin, the app displays a button indicating the best way to get the latest version of that manufacturer's plugins. In cases where there were multiple options for getting the latest version, the button was performing the right action, but it was not labeled properly. For example, in some cases it would tell the user to open an installation manager when it should've told the user to open the manufacturer's Downloads page
+- Add clearer messaging during app startup to explain to the user what's happening in the event of a slower-than-usual startup time
+
 ### v1.1.2
 - Fix a bug where the app would sometimes tell the user that their plugins are out of sync, even though they aren't. This would usually be triggered by navigating through plugin folders in Finder without actually making any changes to any files
 - Fix searching so that it returns a max of 25 results instead of the default 10.

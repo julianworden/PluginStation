@@ -4,12 +4,19 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.1.2</title>
-            <pubDate>Sun, 14 Sep 2025 12:17:30 -0700</pubDate>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <title>1.1.3</title>
+            <pubDate>Thu, 18 Sep 2025 18:29:16 -0700</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.1.3 (09/18/25)</h3>
+                <ul>
+                    <li>Fix a bug where the app was properly detecting installed plugin changes and notifying the user about them, but was not actually making the correct, corresponding change to the user's account for some plugins. If you were experiencing this issue, please check on the plugins in question after installing this update. If you still experience issues, perform an installed plugin rescan in Settings > Installed Software > Rescan Installed Plugins and you should not see this issue again. If you do, please contact support@julianmichaeltechnologies.com</li>
+                    <li>Fix a bug in the out-of-date plugins system warning. Next to the manufacturer of each out-of-date plugin, the app displays a button indicating the best way to get the latest version of that manufacturer's plugins. In cases where there were multiple options for getting the latest version, the button was performing the right action, but it was not labeled properly. For example, in some cases it would tell the user to open an installation manager when it should've told the user to open the manufacturer's Downloads page</li>
+                    <li>Add clearer messaging during app startup to explain to the user what's happening in the event of a slower-than-usual startup time</li>
+                </ul>
+                
                 <h3>v1.1.2 (09/14/25)</h3>
                 <ul>
                     <li>Fix a bug where the app would sometimes tell the user that their plugins are out of sync, even though they aren't. This would usually be triggered by navigating through plugin folders in Finder without actually making any changes to any files</li>
@@ -153,7 +160,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.1.2.dmg" length="24311681" type="application/octet-stream" sparkle:edSignature="oq7Vny3hQ0R0kEkV99bHQaNWU66tnF5drFbYYtSOO0KrgTGLXHK2bF7kCiN2QTGX7fH7A7ywlZoXofP+qq5IDA=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.1.3.dmg" length="24310485" type="application/octet-stream" sparkle:edSignature="RoAWeOqUImfbohmywB+KLI/XTr+btlAPIEvfOtWSnzeMpQ85Mu84hJr6K0EJiRvsXURPOWIB1cXdxxb9vLUTAg=="/>
         </item>
         
         <item>
