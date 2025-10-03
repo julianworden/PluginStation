@@ -4,6 +4,15 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.1.4
+- Implement macOS 26 (Tahoe) Support
+    - Implement a new app icon that visually changes depending on how the user has set the appearance of their icons. For example, if the user sets their icons to appear in Dark mode, Plugin Station's icon will now have a black background with blue in the outlet holes. While icon appearance does not change between modes for users running macOS Ventura through Sequoia, these users will notice that the tag on the Plugin Station icon's plug now appears blue instead of red
+    - Adopt the new Liquid Glass design language introduced by Apple. Users running macOS 26.0 and later will now see these new Liquid Glass design elements in Plugin Station
+    - Make various, subtle changes so that some elements of the app are more readable and glanceable on macOS Tahoe
+- Implement support for plugins manufacturered by Waves
+    - Plugin Station will now detect the .bundle Waves plugin files installed on the user's system in /Applications/Waves. Existing users with Waves plugins already installed should see the app sync these plugins with their account the first time they run Plugin Station 1.1.4
+    - Plugin Station can perform the same operations with these plugins as it can with plugins from other manufacturers, the only exception being uninstalling individual plugin formats. It is not possible to, for example, uninstall only the VST3 file for a Waves plugin because Waves does not make their VST3, AU, and AAX plugin files visible for each individual plugin. Instead, they install .bundle files that contain each format, along with WaveShell files that interface with DAWs to load these .bundle files.
+
 ### v1.1.3
 - Fix a bug where the app was properly detecting installed plugin changes and notifying the user about them, but was not actually making the correct, corresponding change to the user's account for some plugins. If you were experiencing this issue, please check on the plugins in question after installing this update. If you still experience issues, perform an installed plugin rescan in Settings > Installed Software > Rescan Installed Plugins and you should not see this issue again. If you do, please contact support@julianmichaeltechnologies.com
 - Fix a bug in the out-of-date plugins system warning. Next to the manufacturer of each out-of-date plugin, the app displays a button indicating the best way to get the latest version of that manufacturer's plugins. In cases where there were multiple options for getting the latest version, the button was performing the right action, but it was not labeled properly. For example, in some cases it would tell the user to open an installation manager when it should've told the user to open the manufacturer's Downloads page
