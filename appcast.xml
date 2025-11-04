@@ -4,12 +4,29 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.1.4</title>
-            <pubDate>Thu, 02 Oct 2025 16:47:06 -0700</pubDate>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <title>1.2.0</title>
+            <pubDate>Mon, 03 Nov 2025 19:49:37 -0800</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.2.0 (11/03/25)</h3>
+                <ul>
+                    <li>NEW FEATURE: Plugin Station now features a tab in the left sidebar named License Key Manager, which allows the user to more easily manage the license keys for each of their plugins!</li>
+                        <ul>
+                            <li>License Key Manager encrypts each of your license keys using Apple's Keychain and syncs the encrypted license keys across your devices using iCloud. Your license keys never touch the Plugin Station servers</li>
+                            <li>Upon launching Plugin Station 1.2.0 for the first time, an Activation Location will automatically be created that represents each of your System Profiles. In Settings > Activation Locations, you can create additional Activation Locations to represent various types of iLok Activation Locations (iLok Cloud, iLok2 dongles, etc.) to make it easier to keep track of where your License Keys are activated</li>
+                            <li>If you delete an Activation Location while license keys are still activated to it, you will see a System Warning telling you that you have license keys activated to a deleted activation location</li>
+                            <li>Updating a System Profile's nickname/notes will update the corresponding Activation Location's name/notes, and vice versa</li>
+                        </ul>
+                    <li>NEW FEATURE: You can now add notes to each of your System Profiles! You will see a text field to add notes upon creating a System Profile. To add notes to an existing System Profile, navigate to Settings > System Profiles > ... > Edit</li>
+                    <li>Some parts of Plugin Station now have animations to make screen transitions appear more fluid</li>
+                    <li>Start caching the image that displays at the top of a plugin's details screen so that it appears more quickly on subsequent reloads</li>
+                    <li>Most macOS Menu Bar options now show icons alongside their titles. Many menus throughout the app also have icons as well. This was done because many menu options now show icons as of macOS 26.0. These icons will not appear in macOS Ventura (13) through Sequoia (15)</li>
+                    <li>Fix a bug in Storage Manager where clicking the "See All" button in the Largest Plugins section would cause the app to freeze and require a Force Quit</li>
+                    <li>Fix a rare bug where it was possible for some users to see an erroneous "Unneeded Installed Plugin Format" System Warning under some conditions</li>
+                </ul>
+                
                 <h3>v1.1.4 (10/02/25)</h3>
                 <ul>
                     <li>Implement macOS 26 (Tahoe) Support</li>
@@ -175,7 +192,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.1.4.dmg" length="31013580" type="application/octet-stream" sparkle:edSignature="Z7VJxCMPPgqZ9G8V6xn/9PLK18RC/hwKBQUu0mf9gDxwkwLQAW8I6epL5Tm6xNyZoSCEwpsfcgcGSwuULI+VBw=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.0.dmg" length="31794510" type="application/octet-stream" sparkle:edSignature="hi/0wvVICUPWGoEz4/5+3oHRXlG8Iz5V/ZR+uuoIbFXppem2HHl+vFyqE+Zr2ewE1L+aYoVrPGWhu/gp6jmpAQ=="/>
         </item>
         
         <item>

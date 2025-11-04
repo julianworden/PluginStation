@@ -4,6 +4,19 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.2.0
+- NEW FEATURE: Plugin Station now features a tab in the left sidebar named License Key Manager, which allows the user to more easily manage the license keys for each of their plugins!
+    - License Key Manager encrypts each of your license keys using Apple's Keychain and syncs the encrypted license keys across your devices using iCloud. Your license keys never touch the Plugin Station servers
+    - Upon launching Plugin Station 1.2.0 for the first time, an Activation Location will automatically be created that represents each of your System Profiles. In Settings > Activation Locations, you can create additional Activation Locations to represent various types of iLok Activation Locations (iLok Cloud, iLok2 dongles, etc.) to make it easier to keep track of where your License Keys are activated
+    - If you delete an Activation Location while license keys are still activated to it, you will see a System Warning telling you that you have license keys activated to a deleted activation location
+    - Updating a System Profile's nickname/notes will update the corresponding Activation Location's name/notes, and vice versa
+- NEW FEATURE: You can now add notes to each of your System Profiles! You will see a text field to add notes upon creating a System Profile. To add notes to an existing System Profile, navigate to Settings > System Profiles > ... > Edit
+- Some parts of Plugin Station now have animations to make screen transitions appear more fluid
+- Start caching the image that displays at the top of a plugin's details screen so that it appears more quickly on subsequent reloads
+- Most macOS Menu Bar options now show icons alongside their titles. Many menus throughout the app also have icons as well. This was done because many menu options now show icons as of macOS 26.0. These icons will not appear in macOS Ventura (13) through Sequoia (15)
+- Fix a bug in Storage Manager where clicking the "See All" button in the Largest Plugins section would cause the app to freeze and require a Force Quit
+- Fix a rare bug where it was possible for some users to see an erroneous "Unneeded Installed Plugin Format" System Warning under some conditions
+
 ### v1.1.4
 - Implement macOS 26 (Tahoe) Support
     - Implement a new app icon that visually changes depending on how the user has set the appearance of their icons. For example, if the user sets their icons to appear in Dark mode, Plugin Station's icon will now have a black background with blue in the outlet holes. While icon appearance does not change between modes for users running macOS Ventura through Sequoia, these users will notice that the tag on the Plugin Station icon's plug now appears blue instead of red
