@@ -4,12 +4,24 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.2.0</title>
-            <pubDate>Mon, 03 Nov 2025 19:49:37 -0800</pubDate>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <title>1.2.1</title>
+            <pubDate>Sun, 09 Nov 2025 16:31:32 -0800</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.2.1 (11/09/25)</h3>
+                <ul>
+                    <li>Add more icons throughout the app for more consistency with macOS Tahoe's design</li>
+                    <li>Add mention of License Key Manager to onboarding process</li>
+                    <li>Fix bug where some users may see a 'Failed to fetch plugin by ID.' error message and/or a crash when scanning plugins or syncing new plugin changes</li>
+                    <li>Fix a bug where the Total Storage Usage chart in Storage Manager would appear to have way too many tick marks along the X Axis for users with hard drives greater than 1 TB</li>
+                    <li>Fix a bug where using plugin browsing filters and plugin license key filters at the same time was causing issues</li>
+                    <li>Fix wording in some Uninstall Assistant screens to make their purposes more clear</li>
+                    <li>Fix bug in various Uninstall Assistant views where drop shadows were getting clipped off and not showing in their entirety</li>
+                    <li>Fix bug where the Manufacturer Name text field would go off the top of the screen in the screens for plugin browsing and installed plugin filtering</li>
+                </ul>
+                
                 <h3>v1.2.0 (11/03/25)</h3>
                 <ul>
                     <li>NEW FEATURE: Plugin Station now features a tab in the left sidebar named License Key Manager, which allows the user to more easily manage the license keys for each of their plugins!</li>
@@ -192,7 +204,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.0.dmg" length="31794510" type="application/octet-stream" sparkle:edSignature="hi/0wvVICUPWGoEz4/5+3oHRXlG8Iz5V/ZR+uuoIbFXppem2HHl+vFyqE+Zr2ewE1L+aYoVrPGWhu/gp6jmpAQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.1.dmg" length="28379385" type="application/octet-stream" sparkle:edSignature="GR0TQKZlbPek/WrHlrjVVF5WhR63sH+OORtCbBTbZj/WpzTJl/0YDjuQwitWEvnzpw3EfVLY45Pm5aindEiPBw=="/>
         </item>
         
         <item>

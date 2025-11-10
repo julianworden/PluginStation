@@ -4,6 +4,16 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.2.1
+- Add more icons throughout the app for more consistency with macOS Tahoe's design
+- Add mention of License Key Manager to onboarding process
+- Fix bug where some users may see a 'Failed to fetch plugin by ID.' error message and/or a crash when scanning plugins or syncing new plugin changes
+- Fix a bug where the Total Storage Usage chart in Storage Manager would appear to have way too many tick marks along the X Axis for users with hard drives greater than 1 TB
+- Fix a bug where using plugin browsing filters and plugin license key filters at the same time was causing issues
+- Fix wording in some Uninstall Assistant screens to make their purposes more clear
+- Fix bug in various Uninstall Assistant views where drop shadows were getting clipped off and not showing in their entirety
+- Fix bug where the Manufacturer Name text field would go off the top of the screen in the screens for plugin browsing and installed plugin filtering
+
 ### v1.2.0
 - NEW FEATURE: Plugin Station now features a tab in the left sidebar named License Key Manager, which allows the user to more easily manage the license keys for each of their plugins!
     - License Key Manager encrypts each of your license keys using Apple's Keychain and syncs the encrypted license keys across your devices using iCloud. Your license keys never touch the Plugin Station servers
