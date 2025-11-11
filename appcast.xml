@@ -4,12 +4,26 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.2.1</title>
-            <pubDate>Sun, 09 Nov 2025 16:31:32 -0800</pubDate>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <title>1.2.2</title>
+            <pubDate>Tue, 11 Nov 2025 15:08:43 -0800</pubDate>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.2.2 (11/11/25)</h3>
+                <ul>
+                    <li>Plugin Station Enterprise Subscription Plans are now available!</li>
+                    <ul>
+                        <li>Before, the highest number of System Profiles you could have on a single Plugin Station account was 3. Now, with Plugin Station Enterprise Subscription Plans, you can have as many as you need</li>
+                        <li>To purchase or upgrade to a Plugin Station Enterprise Subscription Plan, please contact Support at support@julianmichaeltechnologies.com with information about your business (business name, how many computers you plan to use with Plugin Station, etc.) so that we can assist you</li>
+                    </ul>
+                    <li>Fix bug where deleting a System Profile was causing the user to get kicked back to onboarding, only for the app to freeze and require a restart</li>
+                    <li>Fix a bug where deleting a System Profile was not deleting that System Profile's ignored plugins</li>
+                    <li>Fix a bug where deleting a System Profile was not deleting its corresponding Activation Location if that Activation Location had no license keys activated to it</li>
+                    <li>Fix a bug on macOS Ventura where the Settings window was not getting dismissed automatically after deleting the System Profile that was currently in use</li>
+                    <li>Fix cosmetic issues that would appear in the Compare System Profiles tab if the user had more than 2 System Profiles</li>
+                </ul>
+                
                 <h3>v1.2.1 (11/09/25)</h3>
                 <ul>
                     <li>Add more icons throughout the app for more consistency with macOS Tahoe's design</li>
@@ -204,7 +218,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.1.dmg" length="28379385" type="application/octet-stream" sparkle:edSignature="GR0TQKZlbPek/WrHlrjVVF5WhR63sH+OORtCbBTbZj/WpzTJl/0YDjuQwitWEvnzpw3EfVLY45Pm5aindEiPBw=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.2.dmg" length="28418251" type="application/octet-stream" sparkle:edSignature="cZj1qBWSv2WauCIbFFXNPv66XiEGxqXFf3o3B56VOzoqLnV0pQMKSWC1OEQd61WhNcjW6NpqTJ1o7eXbv7qrDA=="/>
         </item>
         
         <item>

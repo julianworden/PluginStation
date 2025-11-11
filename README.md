@@ -4,6 +4,16 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.2.2
+- Plugin Station Enterprise Subscription Plans are now available!
+    - Before, the highest number of System Profiles you could have on a single Plugin Station account was 3. Now, with Plugin Station Enterprise Subscription Plans, you can have as many as you need
+    - To purchase or upgrade to a Plugin Station Enterprise Subscription Plan, please contact Support at support@julianmichaeltechnologies.com with information about your business (business name, how many computers you plan to use with Plugin Station, etc.) so that we can assist you
+- Fix bug where deleting a System Profile was causing the user to get kicked back to onboarding, only for the app to freeze and require a restart
+- Fix a bug where deleting a System Profile was not deleting that System Profile's ignored plugins
+- Fix a bug where deleting a System Profile was not deleting its corresponding Activation Location if that Activation Location had no license keys activated to it
+- Fix a bug on macOS Ventura where the Settings window was not getting dismissed automatically after deleting the System Profile that was currently in use
+- Fix cosmetic issues that would appear in the Compare System Profiles tab if the user had more than 2 System Profiles
+
 ### v1.2.1
 - Add more icons throughout the app for more consistency with macOS Tahoe's design
 - Add mention of License Key Manager to onboarding process
