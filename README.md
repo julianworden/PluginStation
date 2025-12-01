@@ -4,6 +4,20 @@ A repository for hosting the public releases for Plugin Station, an audio plugin
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.2.3
+- NEW FEATURE: It is now possible to export a CSV file containing info about your installed plugins! You can either export all of your installed plugins, or you can export a subset of them by applying filters at the top of the Installed Plugins list. To access the window to export a CSV file, navigate to the Installed Plugins section in the left sidebar of the app. Above the list that appears, click the icon that looks like a square containing an upward-pointing arrow
+- NEW FEATURE: It is now possible to use the Installed Plugins filters to hide or show only unrecognized installed plugins. To access these filters, navigate to the Installed Plugins section in the left sidebar of the app. Above the list that appears, click the icon next to the previously mentioned one
+- NEW FEATURE: It is now possible to uninstall all plugin files of a specific plugin format via Storage Manager. Before, this was only possible in Plugin Station if you saw a System Warning telling you that you had an unnecessary plugin format installed. You can also open all of your VST, VST3, AU, or AAX plugin files in Finder via Storage Manager. To access these options, click any of the "..." buttons in the "Storage Usage by Plugin Format" section of Storage Manager
+- Many more UI elements now take advantage of Apple's new Liquid Glass design language. Only users running macOS Tahoe (26 and later) will see this change
+- Alter the messaging that appears when Plugin Station starts syncing installed plugin changes. This messaging makes it clearer what's happening during long periods of time where it may appear that the app is frozen, but it's actually not
+- When you reach the bottom of a fetched batch of plugins in the Browse Plugins and Installed Plugins lists, a spinner now appears to indicate that another batch of plugins is loading
+- Fix a bug where it was possible to create or update an Activation Location with no name
+- Fix a bug in the Installed Plugins Filters window where the popup would appear too narrow on some OS versions, causing the "Clear" button to overlap with the title at the top of the popup
+- Fix a bug where clearing installed plugin filters may cause the first batch of newly fetched plugins to load, but then get stuck loading the next batch
+- Fix a bug in the Browse Plugins and Installed Plugins lists where clicking the search field and then modifying filters would cause the loaded plugins to stay the same and not get filtered
+- Fix bug where plugin details screens were showing a blank value for the Supported macOS Versions field if a plugin was superseded or discontinued
+- Fix a rare bug where some users were experiencing a crash immediately after launching Plugin Station
+
 ### v1.2.2
 - Plugin Station Enterprise Subscription Plans are now available!
     - Before, the highest number of System Profiles you could have on a single Plugin Station account was 3. Now, with Plugin Station Enterprise Subscription Plans, you can have as many as you need

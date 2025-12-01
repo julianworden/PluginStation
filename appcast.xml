@@ -4,12 +4,28 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.2.2</title>
-            <pubDate>Tue, 11 Nov 2025 15:08:43 -0800</pubDate>
-            <sparkle:version>28</sparkle:version>
-            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <title>1.2.3</title>
+            <pubDate>Sun, 30 Nov 2025 16:15:04 -0800</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.2.3 (11/30/25)</h3>
+                <ul>
+                    <li>NEW FEATURE: It is now possible to export a CSV file containing info about your installed plugins! You can either export all of your installed plugins, or you can export a subset of them by applying filters at the top of the Installed Plugins list. To access the window to export a CSV file, navigate to the Installed Plugins section in the left sidebar of the app. Above the list that appears, click the icon that looks like a square containing an upward-pointing arrow</li>
+                    <li>NEW FEATURE: It is now possible to use the Installed Plugins filters to hide or show only unrecognized installed plugins. To access these filters, navigate to the Installed Plugins section in the left sidebar of the app. Above the list that appears, click the icon next to the previously mentioned one</li>
+                    <li>NEW FEATURE: It is now possible to uninstall all plugin files of a specific plugin format via Storage Manager. Before, this was only possible in Plugin Station if you saw a System Warning telling you that you had an unnecessary plugin format installed. You can also open all of your VST, VST3, AU, or AAX plugin files in Finder via Storage Manager. To access these options, click any of the "..." buttons in the "Storage Usage by Plugin Format" section of Storage Manager</li>
+                    <li>Many more UI elements now take advantage of Apple's new Liquid Glass design language. Only users running macOS Tahoe (26 and later) will see this change</li>
+                    <li>Alter the messaging that appears when Plugin Station starts syncing installed plugin changes. This messaging makes it clearer what's happening during long periods of time where it may appear that the app is frozen, but it's actually not</li>
+                    <li>When you reach the bottom of a fetched batch of plugins in the Browse Plugins and Installed Plugins lists, a spinner now appears to indicate that another batch of plugins is loading</li>
+                    <li>Fix a bug where it was possible to create or update an Activation Location with no name</li>
+                    <li>Fix a bug in the Installed Plugins Filters window where the popup would appear too narrow on some OS versions, causing the "Clear" button to overlap with the title at the top of the popup</li>
+                    <li>Fix a bug where clearing installed plugin filters may cause the first batch of newly fetched plugins to load, but then get stuck loading the next batch</li>
+                    <li>Fix a bug in the Browse Plugins and Installed Plugins lists where clicking the search field and then modifying filters would cause the loaded plugins to stay the same and not get filtered</li>
+                    <li>Fix bug where plugin details screens were showing a blank value for the Supported macOS Versions field if a plugin was superseded or discontinued</li>
+                    <li>Fix a rare bug where some users were experiencing a crash immediately after launching Plugin Station</li>
+                </ul>
+                
                 <h3>v1.2.2 (11/11/25)</h3>
                 <ul>
                     <li>Plugin Station Enterprise Subscription Plans are now available!</li>
@@ -218,7 +234,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.2.dmg" length="28418251" type="application/octet-stream" sparkle:edSignature="cZj1qBWSv2WauCIbFFXNPv66XiEGxqXFf3o3B56VOzoqLnV0pQMKSWC1OEQd61WhNcjW6NpqTJ1o7eXbv7qrDA=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.3.dmg" length="28537174" type="application/octet-stream" sparkle:edSignature="nreP6RkvIPgNSBiOniy78BWzbOkItnfaulLnFuycMK8zwQajNGxn5Yt1bi9LpyS24iz0VnbsxLexBtHSPGLtDQ=="/>
         </item>
         
         <item>
