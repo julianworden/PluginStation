@@ -1,5 +1,5 @@
 # PluginStation
-A repository for hosting the public releases for Plugin Station, an audio plugin management app.
+A repository for hosting the public releases for Plugin Station, the audio industry's most powerful audio plugin management app.
 
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
