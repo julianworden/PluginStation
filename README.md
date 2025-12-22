@@ -4,6 +4,25 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v.1.2.4
+- NEW FEATURE: The user can now view all of their installed manufacturers from the Installed Manufacturers tab in the left sidebar. After selecting a manufacturer from this tab, the user can much more easily contact their support, view which of their plugins are installed, uninstall all of their plugins, and more
+- A manufacturer's logo can now be clicked in various parts of the app, making it easier to access that manufacturer's information. It's now also possible to click the name of the manufacturer in the About section of a plugin's details screen
+- The Uninstall button in an installed plugin's details screen is now always a menu that unfolds to present uninstallation options much more clearly than before
+- It is now possible to uninstall all of the plugins by a given manufacturer via Storage Manager. Simply navigate to the Storage Usage by Manufacturer section and uses the ellipsis buttons on the right side of each row in the table
+- Improve the appearance and functionality of the search suggestion dropdown menu that appears underneath text fields where the user is searching for a manufacturer or plugin name. The user can now use the up arrow key, down arrow key, and return key on their keyboard to navigate through these dropdown menus
+- A symbol is now shown next to a selected plugin's supported macOS versions that indicates whether or not the user's current System Profile's macOS version supports the selected plugin
+- Improve the appearance of how the supported macOS versions look in the About section in a selected plugin's details screen. They now show as a range instead of showing each one individually
+- Visually separate the Uninstall button in a selected installed plugin's Options section
+- When exporting a CSV file for a user's installed plugins, the selected columns are now preserved and automatically selected/deselected every time the user exports a CSV file
+- Installed Formats are now sorted in alphabetical order in an exported installed plugins CSV file
+- The user can now expand and collapse out-of-date plugin manufacturers in the screen that appears when selecting an out-of-date plugins System Warning, making it much easier to navigate when you have a lot of plugins out of date
+- The app's splash screen now shows varying messages depending on what stage of startup the user is on
+- After uninstalling plugins via Storage Manager, the Storage Manager screen now refreshes instantly. Before, it was required that the user synced their installed plugin changes before the changes would be reflected in Storage Manager
+- Add a note to Storage Manager noting that Waves plugin formats cannot be uninstalled individually, so after uninstalling some formats it may appear that some files in those formats are still installed
+- Fix a bug where hovering over the symbol next to an installed plugin's installed version would be difficult. There was only a very small part of the symbol you could hover over to present the intended message. The text that appears in these popovers was updated as well
+- Fix a bug where macOS Tahoe was not showing as a supported macOS version for plugins that support macOS Tahoe
+- Fix a bug where expanding a group of plugins in Uninstall Assistant would sometimes fail
+
 ### v1.2.3
 - NEW FEATURE: It is now possible to export a CSV file containing info about your installed plugins! You can either export all of your installed plugins, or you can export a subset of them by applying filters at the top of the Installed Plugins list. To access the window to export a CSV file, navigate to the Installed Plugins section in the left sidebar of the app. Above the list that appears, click the icon that looks like a square containing an upward-pointing arrow
 - NEW FEATURE: It is now possible to use the Installed Plugins filters to hide or show only unrecognized installed plugins. To access these filters, navigate to the Installed Plugins section in the left sidebar of the app. Above the list that appears, click the icon next to the previously mentioned one
