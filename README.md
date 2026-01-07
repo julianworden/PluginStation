@@ -4,6 +4,13 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v.1.2.5
+- Make it possible to filter the plugin database by plugins that support macOS 26 (Tahoe). macOS Tahoe support information is gradually being added
+- Change the appearance of the buttons that appear at the top of the screen for creating/editing a plugin license key to be more consistent with other parts of the app
+- Fix a bug where an error message about being unable to check for app updates may appear on startup
+- Fix a bug where installed unrecognized plugins were showing erroneous out-of-date warnings in their details view
+- Fix a rare bug where the app may crash on startup
+
 ### v.1.2.4
 - NEW FEATURE: The user can now view all of their installed manufacturers from the Installed Manufacturers tab in the left sidebar. After selecting a manufacturer from this tab, the user can much more easily contact their support, view which of their plugins are installed, uninstall all of their plugins, and more
 - A manufacturer's logo can now be clicked in various parts of the app, making it easier to access that manufacturer's information. It's now also possible to click the name of the manufacturer in the About section of a plugin's details screen

@@ -4,12 +4,21 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.2.4</title>
-            <pubDate>Sun, 21 Dec 2025 18:34:44 -0800</pubDate>
-            <sparkle:version>30</sparkle:version>
-            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+            <title>1.2.5</title>
+            <pubDate>Tue, 06 Jan 2026 20:01:34 -0800</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.2.5 (01/06/26)</h3>
+                <ul>
+                    <li>Make it possible to filter the plugin database by plugins that support macOS 26 (Tahoe). macOS Tahoe support information is gradually being added</li>
+                    <li>Change the appearance of the buttons that appear at the top of the screen for creating/editing a plugin license key to be more consistent with other parts of the app</li>
+                    <li>Fix a bug where an error message about being unable to check for app updates may appear on startup</li>
+                    <li>Fix a bug where installed unrecognized plugins were showing erroneous out-of-date warnings in their details view</li>
+                    <li>Fix a rare bug where the app may crash on startup</li>
+                </ul>
+                
                 <h3>v1.2.4 (12/21/25)</h3>
                 <ul>
                     <li>NEW FEATURE: The user can now view all of their installed manufacturers from the Installed Manufacturers tab in the left sidebar. After selecting a manufacturer from this tab, the user can much more easily contact their support, view which of their plugins are installed, uninstall all of their plugins, and more</li>
@@ -255,7 +264,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.4.dmg" length="28894895" type="application/octet-stream" sparkle:edSignature="dsTVa/6QGFwCsYs0NUjDzvZLifp3d771ooQaoFZoasYCTIgh7pmYrmwT4jvCzjmEf7CIhk+y98CegdVZQM+RAQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.4.dmg" length="29040538" type="application/octet-stream" sparkle:edSignature="jU1Cm4GAYVuFEx/102Bi9Kc75gFTJNZ3FUbM0fu/FYnAjZJNmFyBP75T+lVct9BcqZORY4UtDEnX53DiUb7BBQ=="/>
         </item>
         
         <item>
