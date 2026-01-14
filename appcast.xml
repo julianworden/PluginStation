@@ -4,12 +4,20 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.2.5</title>
-            <pubDate>Wed, 07 Jan 2026 07:06:29 -0800</pubDate>
-            <sparkle:version>32</sparkle:version>
-            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <title>1.2.6</title>
+            <pubDate>Tue, 13 Jan 2026 20:43:05 -0800</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.2.6 (01/13/26)</h3>
+                <ul>
+                    <li>If a browsed plugin is installed, it just shows as 'Installed' in its details view instead of a very long title showing you the name of the system profile</li>
+                    <li>Fix a bug where some DAWs may not be detected on the user's system, even though they're in the Plugin Station DAW database</li>
+                    <li>Make the out-of-sync popup alert more obvious by giving it a red background</li>
+                    <li>Fix an rare issue where some users are experiencing a crash on app startup</li>
+                </ul>
+                
                 <h3>v1.2.5 (01/06/26)</h3>
                 <ul>
                     <li>Make it possible to filter the plugin database by plugins that support macOS 26 (Tahoe). macOS Tahoe support information is gradually being added</li>
@@ -264,7 +272,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.5.dmg" length="29033302" type="application/octet-stream" sparkle:edSignature="p24rfHvsSs5CSkUN2DhKfL8GaO5gpNt1WcLRwD3iz8qIiCDPpvR3sVgcnTcKnMFPeiYvaKBf85VlhGya8PyaDw=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.5.dmg" length="29479398" type="application/octet-stream" sparkle:edSignature="9BRZLCH+oJu+pce5siP/s0+ri8wT2X7i9Y8TytFgo0meCmn2qQ6jzZtwZJT671SoKEGYE4YUFQ8O7gueAOU3Aw=="/>
         </item>
         
         <item>

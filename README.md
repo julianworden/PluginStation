@@ -4,6 +4,12 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.2.6
+- If a browsed plugin is installed, it just shows as 'Installed' in its details view instead of a very long title showing you the name of the system profile
+- Fix a bug where some DAWs may not be detected on the user's system, even though they're in the Plugin Station DAW database
+- Make the out-of-sync popup alert more obvious by giving it a red background
+- Fix an rare issue where some users are experiencing a crash on app startup
+
 ### v.1.2.5
 - Make it possible to filter the plugin database by plugins that support macOS 26 (Tahoe). macOS Tahoe support information is gradually being added
 - Change the appearance of the buttons that appear at the top of the screen for creating/editing a plugin license key to be more consistent with other parts of the app
