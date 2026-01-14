@@ -8,7 +8,7 @@ Here are the release notes for all public and beta versions of Plugin Station.
 - If a browsed plugin is installed, it just shows as 'Installed' in its details view instead of a very long title showing you the name of the system profile
 - Fix a bug where some DAWs may not be detected on the user's system, even though they're in the Plugin Station DAW database
 - Make the out-of-sync popup alert more obvious by giving it a red background
-- Fix an rare issue where some users are experiencing a crash on app startup
+- Fix a rare issue where some users are experiencing a crash on app startup
 
 ### v.1.2.5
 - Make it possible to filter the plugin database by plugins that support macOS 26 (Tahoe). macOS Tahoe support information is gradually being added
