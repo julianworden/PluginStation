@@ -12,7 +12,7 @@
             <description><![CDATA[
                 <h3>v1.2.7 (01/15/26)</h3>
                 <ul>
-                    <li>Fix a bug where, under certain conditions, the app was telling users that they had DAWs installed that they didn't have installed</li>
+                    <li>Fix a bug where, under certain conditions, the app was telling users that they had DAWs installed that they didn't have installed. <strong>If you were having this issue: Please rescan your installed DAWs in Settings > Installed Software > Rescan Installed DAWs in order for this fix to take effect</strong></li>
                 </ul>
                 
                 <h3>v1.2.6 (01/13/26)</h3>

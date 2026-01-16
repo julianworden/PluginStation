@@ -5,7 +5,7 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 Here are the release notes for all public and beta versions of Plugin Station.
 
 ### v1.2.7
-- Fix a bug where, under certain conditions, the app was telling users that they had DAWs installed that they didn't have installed
+- Fix a bug where, under certain conditions, the app was telling users that they had DAWs installed that they didn't have installed. **If you were having this issue: Please rescan your installed DAWs in Settings > Installed Software > Rescan Installed DAWs in order for this fix to take effect**
 
 ### v1.2.6
 - If a browsed plugin is installed, it just shows as 'Installed' in its details view instead of a very long title showing you the name of the system profile
