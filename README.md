@@ -4,6 +4,16 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.2.8
+- NEW FEATURE: A free version of Plugin Station is now available! The user can now use a Skip button during onboarding to use a free version of Plugin Station. Many parts of the app are blurred out/disabled when using this version
+- Improve onboarding such that the user no longer has to scroll at any point through the process
+- The logos during onboarding are now clickable and lead to the Plugin Station website
+- The app's version and copyright information is now displayed during onboarding
+- Fix a bug where some users may experience very long load times when loading the details for a plugin
+- Fix a bug on macOS Ventura where Uninstall Assistant rows might move strangely when loaded
+- Fix a bug where vague error messages were being shown during login and signup whenever an error occurred
+- Fix a bug where the app was sometimes freezing after the user created an account, making an app restart necessary before the user could proceed through onboarding
+
 ### v1.2.7
 - Fix a bug where, under certain conditions, the app was telling users that they had DAWs installed that they didn't have installed. **If you were having this issue: Please rescan your installed DAWs in Settings > Installed Software > Rescan Installed DAWs in order for this fix to take effect**
 

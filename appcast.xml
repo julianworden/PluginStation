@@ -4,12 +4,24 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.2.7</title>
-            <pubDate>Thu, 15 Jan 2026 21:00:39 -0800</pubDate>
-            <sparkle:version>36</sparkle:version>
-            <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
+            <title>1.2.8</title>
+            <pubDate>Sun, 25 Jan 2026 19:02:10 -0800</pubDate>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>1.2.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.2.8 (01/25/26)</h3>
+                <ul>
+                    <li>NEW FEATURE: A free version of Plugin Station is now available! The user can now use a Skip button during onboarding to use a free version of Plugin Station. Many parts of the app are blurred out/disabled when using this version</li>
+                    <li>Improve onboarding such that the user no longer has to scroll at any point through the process</li>
+                    <li>The logos during onboarding are now clickable and lead to the Plugin Station website</li>
+                    <li>The app's version and copyright information is now displayed during onboarding</li>
+                    <li>Fix a bug where some users may experience very long load times when loading the details for a plugin</li>
+                    <li>Fix a bug on macOS Ventura where Uninstall Assistant rows might move strangely when loaded</li>
+                    <li>Fix a bug where vague error messages were being shown during login and signup whenever an error occurred</li>
+                    <li>Fix a bug where the app was sometimes freezing after the user created an account, making an app restart necessary before the user could proceed through onboarding</li>
+                </ul>
+                
                 <h3>v1.2.7 (01/15/26)</h3>
                 <ul>
                     <li>Fix a bug where, under certain conditions, the app was telling users that they had DAWs installed that they didn't have installed. <strong>If you were having this issue: Please rescan your installed DAWs in Settings > Installed Software > Rescan Installed DAWs in order for this fix to take effect</strong></li>
@@ -277,7 +289,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.7.dmg" length="29054587" type="application/octet-stream" sparkle:edSignature="IoZY5wy9R8L1ZRXkXlIXlnSqOVOX5LPO+qi5PcNEKDzyu9bjY34SiDE3y/vnuWz+8Qx6oqxr9TETIa9jlpYWDQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.8.dmg" length="29690090" type="application/octet-stream" sparkle:edSignature="lmH12/gGt3gAJvJgm933MPOobpvzhDCOxqbrLyY/ZewZWbRaEjmpEvF8H6L6Y4eBzXfKvg0jU6nYvVvcwhvdAA=="/>
         </item>
         
         <item>
