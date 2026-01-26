@@ -12,7 +12,7 @@
             <description><![CDATA[
                 <h3>v1.2.8 (01/25/26)</h3>
                 <ul>
-                    <li>NEW FEATURE: A free version of Plugin Station is now available! The user can now use a Skip button during onboarding to use a free version of Plugin Station. Many parts of the app are blurred out/disabled when using this version</li>
+                    <li>NEW FEATURE: A free version of Plugin Station is now available! The user can now use a Skip button during onboarding to use a free version of Plugin Station with a limited feature set, all without entering their payment information</li>
                     <li>Improve onboarding such that the user no longer has to scroll at any point through the process</li>
                     <li>The logos during onboarding are now clickable and lead to the Plugin Station website</li>
                     <li>The app's version and copyright information is now displayed during onboarding</li>

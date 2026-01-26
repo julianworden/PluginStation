@@ -5,7 +5,7 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 Here are the release notes for all public and beta versions of Plugin Station.
 
 ### v1.2.8
-- NEW FEATURE: A free version of Plugin Station is now available! The user can now use a Skip button during onboarding to use a free version of Plugin Station. Many parts of the app are blurred out/disabled when using this version
+- NEW FEATURE: A free version of Plugin Station is now available! The user can now use a Skip button during onboarding to use a free version of Plugin Station with a limited feature set, all without entering their payment information
 - Improve onboarding such that the user no longer has to scroll at any point through the process
 - The logos during onboarding are now clickable and lead to the Plugin Station website
 - The app's version and copyright information is now displayed during onboarding
