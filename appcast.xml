@@ -4,12 +4,19 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.2.9</title>
-            <pubDate>Mon, 26 Jan 2026 08:45:37 -0800</pubDate>
-            <sparkle:version>39</sparkle:version>
-            <sparkle:shortVersionString>1.2.9</sparkle:shortVersionString>
+            <title>1.2.10</title>
+            <pubDate>Mon, 02 Feb 2026 16:47:24 -0800</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>1.2.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.2.10 (02/02/26)</h3>
+                <ul>
+                    <li>Add a status message that shows in the System Warnings tab to make it clearer to the user what's happening while System Warnings are loading</li>
+                    <li>Fix a bug where the checkbox to select all plugins in the screen showing unneeded installed plugin files wasn't doing anything</li>
+                    <li>Fix a bug where Ableton Live and FL Studio users were being told they had certain versions of those DAWs installed that weren't actually installed. This fix makes it so that Ableton Live and FL Studio will not get detected on the user's computer if the name of the DAW's .app file is changed. This change was required in order to fix this bug. For other DAWs, they will still get detected if their .app file name changes</li>
+                </ul>
+                
                 <h3>v1.2.9 (01/26/26)</h3>
                 <ul>
                     <li>Fix a rare bug where the user may see an erroneous "Trouble reaching the Branch servers, please try again shortly" error message after loading plugin details</li>
@@ -294,7 +301,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.9.dmg" length="29688493" type="application/octet-stream" sparkle:edSignature="LbGJqcE7ZpKB9n6A7q9DWiWfUl1aVc1+yKWPnNU4JCFjdMw0vWOfU/ZapA+w82WMQ5L1OgosmKEUBQVkU8EjAQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.2.10.dmg" length="29778312" type="application/octet-stream" sparkle:edSignature="aVThv/mgXHRrFYZcon9rR/bsyNyjGsddTu58/BdpK7wYMNcmPpAKigbPGatLr+nP8SsD7Dxl8dVjIac91clFDg=="/>
         </item>
         
         <item>

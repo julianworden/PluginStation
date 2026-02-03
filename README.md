@@ -4,6 +4,11 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.2.10
+- Add a status message that shows in the System Warnings tab to make it clearer to the user what's happening while System Warnings are loading
+- Fix a bug where the checkbox to select all plugins in the screen showing unneeded installed plugin files wasn't doing anything
+- Fix a bug where Ableton Live and FL Studio users were being told they had certain versions of those DAWs installed that weren't actually installed. This fix makes it so that Ableton Live and FL Studio will not get detected on the user's computer if the name of the DAW's .app file is changed. This change was required in order to fix this bug. For other DAWs, they will still get detected if their .app file name changes
+
 ### v1.2.9
 - Fix a rare bug where the user may see an erroneous "Trouble reaching the Branch servers, please try again shortly" error message after loading plugin details
 
