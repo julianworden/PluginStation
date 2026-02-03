@@ -6,6 +6,7 @@ Here are the release notes for all public and beta versions of Plugin Station.
 
 ### v1.2.10
 - Add a status message that shows in the System Warnings tab to make it clearer to the user what's happening while System Warnings are loading
+- Fix a bug where the buttons at the top of the window for creating/editing a plugin license key were not legible in dark mode for users on some macOS versions. These buttons have been replaced with checkboxes so that they're more legible and consistent with the design of the rest of the app
 - Fix a bug where the checkbox to select all plugins in the screen showing unneeded installed plugin files wasn't doing anything
 - Fix a bug where Ableton Live and FL Studio users were being told they had certain versions of those DAWs installed that weren't actually installed. This fix makes it so that Ableton Live and FL Studio will not get detected on the user's computer if the name of the DAW's .app file is changed. This change was required in order to fix this bug. For other DAWs, they will still get detected if their .app file name changes
 
