@@ -4,6 +4,30 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.3.0
+- NEW FEATURE: A System Warning now appears when you have plugins installed that do not support the macOS version you're currently using
+    - To ensure its accuracy, all macOS compatibility data is manually verified via the plugin manufacturer's website or technical support team before its added to the database
+- NEW FEATURES: More Installed Plugins filters have been added:
+    - Which macOS version(s) a plugin supports
+    - Which macOS version(s) a plugin does NOT support
+    - Which formats a plugin has installed
+    - Whether or not a plugin has been superseded
+    - Whether or not a plugin has been discontinued
+    - Whether or not a plugin requires an iLok authorization
+    - Whether or not a plugin is free
+- NEW FEATURE: An "Ignore (This System Warning)" option is now available for plugins in System Warnings. Before, the user could only ignore all System Warnings for a plugin, meaning that if a plugin was ignored, it would no longer show up under any System Warnings. Now, if there's a single System Warning the user does not want a plugin to show up in, they can ignore that plugin for just that System Warning.
+    - This new option appears alongside the "Ignore (All System Warnings)", which has the same effect that the Ignore feature had before
+- NEW FEATURE: It is now possible to Ignore System Warnings themselves. For example, if the user never wants the Unneeded AAX Plugin Files System Warning to appear, they can Ignore it by right clicking it in the System Warnings list, swiping left on it in the System Warnings list, or clicking the crossed out bell button in the top right corner of its details screen
+- The Browse Plugins list now has an icon next to any plugin that does not support the user's current macOS version
+- The Installed Plugins list now has icons next to any plugins that are superseded, discontinued, free, or do not support the user's current macOS version
+- During onboarding, the user now has to verify their email address before purchasing a subscription or perpetual license to ensure that it's not possible to make an order with an invalid/incorrect email address by mistake
+- Add text to the Create Username screen during onboarding to clarify why a username is necessary (sharing System Profiles and future features)
+- Add more descriptive text that appears in the Installed Plugins list when filters return no results
+- Add an info popup next to a plugin's supported macOS versions that specifies that Plugin Station only tracks macOS compatibility info for macOS Ventura and later
+- Improve System Warnings loading times
+- While system warning data is loading, the app now shows a redacted view like it does while Installed Plugin data is loading, for example
+- Loaded data is now preserved when the user views a System Warning details screen. For example, if the user clicked the Out-Of-Date Plugins System Warning, clicked on a different System Warning, and then went back to the Out-Of-Date Plugins System Warning, the data would have to load again before the user could view it. Now that is not necessary, and the information will still be there when the user goes back
+
 ### v1.2.10
 - Add a status message that shows in the System Warnings tab to make it clearer to the user what's happening while System Warnings are loading
 - Fix a bug where the buttons at the top of the window for creating/editing a plugin license key were not legible in dark mode for users on some macOS versions. These buttons have been replaced with checkboxes so that they're more legible and consistent with the design of the rest of the app
