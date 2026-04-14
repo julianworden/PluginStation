@@ -4,6 +4,16 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.3.1
+- Add options during onboarding for purchasing Enterprise Subscription Plans for up to 80 System Profiles, the previous limit was 20 simply because these new plans hadn't been added yet
+- Add a "Redeem License Code" button during onboarding for users who have purchased a Plugin Station license code. This was done in preparation for making it possible for users to purchase a license outside of the Plugin Station app
+- Fix a bug where plugin files with unreadable version information were not being displayed as such in various details screens
+- Fix a bug where plugin files with unreadable version information were erroneously appearing in the Out-of-Date Plugins System Warning
+- Fix a bug where Plugin Station was not detecting a macOS version change if the user downgraded their macOS version
+- Fix a bug where the "Select All" checkbox in the Superseded Plugins System Warning was showing the wrong symbol and was not responding to clicks
+- Fix a bug where unneeded installed plugin format warnings were erroneously appearing and telling users that they had 0 KB of the unneeded format installed
+- Fix a bug where uninstalling a plugin would silently fail under some conditions
+
 ### v1.3.0
 - NEW FEATURE: A System Warning now appears when you have plugins installed that do not support the macOS version you're currently using
     - To ensure its accuracy, all macOS compatibility data is manually verified via the plugin manufacturer's website or technical support team before its added to the database
