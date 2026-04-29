@@ -4,6 +4,34 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.3.2
+- NEW FEATURE: The user can now designate a Private Folder of plugins that Plugin Station will completely ignore. Use this on systems with confidential pre-release/beta plugins or plugin versions that you don't want Plugin Station to know about
+    - To set a Private Folder, navigate to the plugin scanning screen during onboarding or via Settings > Installed Software > Rescan Installed Plugins. For the latter instructions, you will need to complete a plugin rescan before the Private Folder change will take effect
+    - NOTE: New plugins and plugin versions are still not added to the Plugin Station plugin database unless they are publicly visible on the manufacturer's website. This is simply a privacy feature so that confidential data is never on Plugin Station's servers in the first place
+- After uninstalling plugins with Plugin Station, all screens in the app now immediately update to reflect the change. Before, a sync was required in order for plugins to appear uninstalled in the app. In cases where many plugins are uninstalled at one time, changes are now synced with the user's account in the background during normal app usage after the files are removed from the user's computer
+    - A circular progress indicator appears in the toolbar while a background sync is in progress. Click it to see more details about what's syncing
+    - Attempting to quit Plugin Station while a background sync is still running will cause the quit to be deferred. The app will automatically quit once the sync finishes so that no data is lost
+- The Installed Plugins list now shows all installed plugins at once instead of loading them in batches while scrolling
+- Add the option to uninstall plugins directly from the screen that appears when selecting a Superseded Plugin System Warning. The user can now view the details of plugins from this screen as well
+- Make it possible to delete or mark notifications as read/unread directly from the Notifications list using swipe actions, a right-click context menu, or a new icon in the toolbar
+- Progress bars are now displayed in various places throughout the app for long operations that are likely to take more than a couple seconds 
+- Uninstall Assistant rows now include icons that show details about each plugin at a glance, and it is now possible to show a plugin's details screen from any Uninstall Assistant row
+- The Out-of-Date Plugins System Warning screen now show a single version number to represent all installed formats when the available update is the same across all of them, instead of repeating the same version multiple times. If different formats have different new version numbers, they will still be shown like before
+- The "Show in Finder" option in an Installed Plugin's details screen now opens the plugin file immediately in Finder if only one format is installed. If multiple formats are installed, a menu is shown with options for each format and a new "Show All In Finder" option that reveals every installed format at once
+- Fix a bug where the app was mistaking the SignalGenerator Waves plugin file for the SignalGenerator Avid plugin file
+    - For users experiencing this issue: The app should automatically correct this issue after launching this updated version of Plugin Station for the first time
+- Fix a bug on macOS Ventura where the red "Plugins Out of Sync" popup would sometimes not appear in realtime after making changes to installed plugins. Previously, the user sometimes had to put the app in the background and bring it back to the foreground for the popup to show
+- Fix a bug where deselecting the "Unknown" manufacturer checkbox in Uninstall Assistant would not actually deselect those plugins
+- Fix a bug where the "Select All" checkbox in Uninstall Assistant was misaligned with the checkboxes in the rows below it
+- Fix a bug in Uninstall Assistant where the same plugin format could appear multiple times for the Waves manufacturer row
+- Fix a bug in the Superseded Plugin System Warning details screen where the "Ignore Selected" button was clickable even when no plugins were selected
+- Fix a bug where an Installed Plugin's details screen would sometimes not display correctly when opened in its own window
+- Fix a bug where the screen showing System Profile deletion progress would sometimes not get dismissed after the deletion completed
+- Fix a bug where, in some cases, certain non-plugin files could be detected as installed plugins
+    - For users experiencing this issue: The app should automatically correct this issue after launching this updated version of Plugin Station for the first time
+- Fix a bug where the Plugin Station window's size and position were not being saved across app launches
+- Fix a bug on macOS Ventura where the installed plugin CSV export popup would repeatedly present itself and dismiss in a loop when the user clicked the button to present it
+
 ### v1.3.1
 - Add options during onboarding for purchasing Enterprise Subscription Plans for up to 80 System Profiles, the previous limit was 20 simply because these new plans hadn't been added yet
 - Add a "Redeem License Code" button during onboarding for users who have purchased a Plugin Station license code. This was done in preparation for making it possible for users to purchase a license outside of the Plugin Station app
