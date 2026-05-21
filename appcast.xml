@@ -4,12 +4,58 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.3.2</title>
-            <pubDate>Wed, 29 Apr 2026 10:17:17 -0700</pubDate>
-            <sparkle:version>46</sparkle:version>
-            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+            <title>1.3.3</title>
+            <pubDate>Thu, 21 May 2026 16:54:40 -0700</pubDate>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.3.3 (05/21/26)</h3>
+                <ul>
+                    <li><strong>Out-of-Date Installed Plugins System Warning</strong>
+                        <ul>
+                            <li>Add an "Ignore (This Update)" button to the Out-of-Date Installed Plugins System Warning screen. The user can now use the "..." button next to any plugin to ignore that specific update, and only see future updates following the one that they ignored</li>
+                            <li>Add notes to the Out-of-Date Installed Plugins System Warning screen to add more context about how latest version info is added to the database, and what to do in the event that you're unable to find an update that Plugin Station says is the latest version of a plugin</li>
+                            <li>Fix a bug where, if some plugin formats were out of date while others weren't, the Out-of-Date Installed Plugins System Warning screen would only show the out of date ones and not the up-to-date ones. This was leading users to think the app wasn't properly detecting their plugins, even though they were just not updating all of the formats they had installed</li>
+                            <li>Fix a rare bug where some plugin formats wouldn't be shown as out of date/up to date under some conditions</li>
+                        </ul>
+                    </li>
+                    <li><strong>Uninstall Assistant</strong>
+                        <ul>
+                            <li>The user can now search and sort the plugins in Uninstall Assistant by using the new search field and sort buttons in the toolbar of Uninstall Assistant</li>
+                            <li>The manufacturer and "select/deselect all" checkboxes in Uninstall Assistant are now menus if the plugins they pertain to contain more than 1 plugin format. For example, if the user has VST3 and AAX plugin files installed by Waves, they will click the Waves checkbox and see options for select/deselect all VST3/AAX. Same for the "select/deselect all" checkbox</li>
+                            <li>Fix a bug where scrolling in Uninstall Assistant would sometimes appear laggy, especially for users with a lot of plugins installed</li>
+                        </ul>
+                    </li>
+                    <li><strong>Background Sync</strong>
+                        <ul>
+                            <li>The background sync progress indicator has been redesigned. Instead of a toolbar icon, which was unreliably presenting the info popup when clicked, it now appears as a floating pill in the bottom-right corner of the window</li>
+                        </ul>
+                    </li>
+                    <li><strong>General</strong>
+                        <ul>
+                            <li>Installed Manufacturers, Installed Plugins, Storage Manager, and Uninstall Assistant tabs now start loading immediately on app startup, making it much quicker to access them on app startup</li>
+                            <li>Uninstalling a plugin with Plugin Station now instantly removes that plugin from the Installed Plugins, Installed Manufacturers, Storage Manager, Uninstall Assistant, and System Warnings tabs instantly without needing to completely refresh all the data in those tabs first</li>
+                        </ul>
+                    </li>
+                    <li><strong>Storage Manager</strong>
+                        <ul>
+                            <li>Fix a bug in Storage Manager where clicking "See All" to expand the "Storage Usage by Manufacturer" or "Storage Usage by Plugin Format" tables would silently collapse back to the default short view after uninstalling a plugin</li>
+                        </ul>
+                    </li>
+                    <li><strong>About This System Profile</strong>
+                        <ul>
+                            <li>Fix a bug where the About This System Profile screen was truncating some of its text</li>
+                        </ul>
+                    </li>
+                    <li><strong>System Warnings</strong>
+                        <ul>
+                            <li>Fix a copy bug where the System Warning for unneeded AU plugin files incorrectly referred to them as "unneeded VST3 files"</li>
+                            <li>Fix a rare bug where the app might crash upon presenting the System Warnings Settings screen presented by the gear icon above the System Warnings list</li>
+                        </ul>
+                    </li>
+                </ul>
+
                 <h3>v1.3.2 (04/29/26)</h3>
                 <ul>
                     <li>NEW FEATURE: The user can now designate a Private Folder of plugins that Plugin Station will completely ignore. Use this on systems with confidential pre-release/beta plugins or plugin versions that you don't want Plugin Station to know about
@@ -391,7 +437,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.3.2.dmg" length="30890693" type="application/octet-stream" sparkle:edSignature="lSFQTOEbF8+3zUIMR0isbEI5r+rxb7I0lplRbLSYpBKSvRJba16pS0g4lsv7+0wmMy29mmBHWTUiWzaNESAdDQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.3.2.dmg" length="31226333" type="application/octet-stream" sparkle:edSignature="PooKo51t3Gf1l7tHpI+Ipo8Y03t3kqlIpAbOZ0lvh+yAR/gfQN9WKU1MqLoS91FqLHfD1cz3sRRU/yK0FWnNBw=="/>
         </item>
         
         <item>

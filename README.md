@@ -4,6 +4,40 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.3.3
+- **Out-of-Date Installed Plugins System Warning**
+    - Add an "Ignore (This Update)" button to the Out-of-Date Installed Plugins System Warning screen. The user can now use the "..." button next to any plugin to ignore that specific update, and only see future updates following the one that they ignored. This option is also now available in the "Ignore Selected" menu at the top right corner of the list
+    - Display notes about various manufacturers so that the user has more context about certain quirks that certain manufacturers have in how they distribute updates to users
+    - Add a button to the top of the window to present text describing what to do in the event that the user is unable to find an update that Plugin Station says is the latest version of a plugin 
+    - Fix a bug where, if some plugin formats were out of date while others weren't, this screen would only show the out of date ones and not the up-to-date ones. This was leading users to think the app wasn't properly detecting their plugins, even though they were just not updating all of the formats they had installed
+    - Fix a rare bug where some plugin formats wouldn't be shown as out of date/up to date under some conditions
+- **Uninstall Assistant**
+    - The user can now search and sort the plugins in Uninstall Assistant by using the new search field and sort buttons in the toolbar
+    - The manufacturer and "select/deselect all" checkboxes now present menus if the plugins they pertain to contain more than 1 plugin format. For example, if the user has VST3 and AAX plugin files installed by Waves, they will click the Waves checkbox and see options for select/deselect all VST3/AAX. Same for the "select/deselect all" checkbox
+    - Fix a bug where scrolling would sometimes appear laggy, especially for users with a lot of plugins installed
+- **Installed Plugins List and Details**
+    - The user can now select multiple plugins in the Installed Plugins list and right click any of the selected plugins to uninstall them, view their product pages, or view them in Finder.
+        - To select plugins that are next to each other: Click the topmost plugin you want to select, hold the Shift key on your keyboard, and then click the bottommost plugin you want to select
+        - To select plugins that are not next to each other: Hold the command key while you click on each plugin you want to select
+    - Fix a bug where the user would still see uninstalled plugins in the app after uninstalling them if they had applied filters/sorting first
+    - Fix a bug where the Visit Manufacturer Website button in an installed plugin's details screen took the user to the product page instead of the manufacturer's homepage
+- **Quality-Of-Life Improvements**
+    - Installed Manufacturers, Installed Plugins, Storage Manager, and Uninstall Assistant tabs now start fetching data immediately on app startup, making it much quicker to access them after launching Plugin Station
+    - Uninstalling a plugin with Plugin Station now instantly removes that plugin from the Installed Plugins, Installed Manufacturers, Storage Manager, Uninstall Assistant, and System Warnings tabs without refreshing all the data in those tabs
+    - Ignoring/Un-Ignoring a plugin in a System Warning now automatically updates all System Warnings without having to reload every single one 
+- **Storage Manager**
+    - Fix a bug where clicking "See All" to expand the "Storage Usage by Manufacturer" or "Storage Usage by Plugin Format" tables would silently collapse back to the default short view after uninstalling a plugin
+- **Plugin Rescanning**
+    - It is now clearer that the user must rescan their plugins before Custom Locations and Private Folder changes will take effect
+- **About This System Profile**
+    - Fix a bug where the About This System Profile screen was truncating some of its text
+- **System Warnings**
+    - Fix bug where if a user has selected a System Warning and then they clear that System Warning by resolving it, the System Warning's details screen would still show
+    - Fix a rare bug where the app might crash upon presenting the System Warnings Settings screen presented by the gear icon above the System Warnings list
+    - Fix a bug in System Warnings Settings where checking an individual plugin's box and then deleting that plugin individually (without using "Stop Ignoring Selected") would result in the header checkbox at the top of the list remaining checked as if a plugin is still selected
+- **Miscellaneous Changes/Fixes**
+    - The background sync progress indicator has been redesigned. Instead of a toolbar icon, which was unreliably presenting the info popup when clicked, it now appears as a floating text box in the bottom-right corner of the app's window
+
 ### v1.3.2
 - NEW FEATURE: The user can now designate a Private Folder of plugins that Plugin Station will completely ignore. Use this on systems with confidential pre-release/beta plugins or plugin versions that you don't want Plugin Station to know about
     - To set a Private Folder, navigate to the plugin scanning screen during onboarding or via Settings > Installed Software > Rescan Installed Plugins. For the latter instructions, you will need to complete a plugin rescan before the Private Folder change will take effect
