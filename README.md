@@ -4,6 +4,21 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### v1.3.4
+- **System Warnings**
+  - System Warning detail screens now show a progress bar while their data is loading
+  - Fix a bug where not all System Warning detail screens were sorting their data in alphabetical order
+  - Fix a bug where ignoring the last plugin in a System Warning was not dismissing the corresponding details view
+  - Fix a related bug where transferring the last of your license keys off a deleted activation location was not immediately clearing the Plugin License Keys On Deleted Activation Location System Warning
+  - Fix a bug where some System Warning details views were not updating immediately after a plugin was ignored or un-ignored. Instead, they were forcing all System Warnings to reload
+- **Uninstall Assistant**
+  - Update the loading progress bar such that it uses the same style as the ones in System Warnings
+  - Fix a bug where the Select All/Deselect All checkbox was not limited to the searched plugins when a search was active
+- **Installed Manufacturers**
+  - The installed plugins list inside an Installed Manufacturer's details screen now vertically expands to fill all available space, so more plugins are visible at once without scrolling
+- **App Launch**
+  - Fix a bug where the splash screen was no longer animating away when the app finished launching
+
 ### v1.3.3
 - **Out-of-Date Installed Plugins System Warning**
     - Add an "Ignore (This Update)" button to the Out-of-Date Installed Plugins System Warning screen. The user can now use the "..." button next to any plugin to ignore that specific update, and only see future updates following the one that they ignored. This option is also now available in the "Ignore Selected" menu at the top right corner of the list

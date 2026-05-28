@@ -4,12 +4,42 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.3.3</title>
-            <pubDate>Thu, 21 May 2026 16:54:40 -0700</pubDate>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <title>1.3.4</title>
+            <pubDate>Wed, 27 May 2026 16:30:42 -0700</pubDate>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>v1.3.4</h3>
+                  <ul>
+                    <li><strong>System Warnings</strong>
+                      <ul>
+                        <li>System Warning detail screens now show a progress bar while their data is loading</li>
+                        <li>Fix a bug where not all System Warning detail screens were sorting their data in alphabetical order</li>
+                        <li>Fix a bug where ignoring the last plugin in a System Warning was not dismissing the corresponding details view</li>
+                        <li>Fix a related bug where transferring the last of your license keys off a deleted activation location was not immediately clearing the Plugin License Keys On Deleted Activation Location System
+                  Warning</li>
+                        <li>Fix a bug where some System Warning details views were not updating immediately after a plugin was ignored or un-ignored. Instead, they were forcing all System Warnings to reload</li>
+                      </ul>
+                    </li>
+                    <li><strong>Uninstall Assistant</strong>
+                      <ul>
+                        <li>Update the loading progress bar such that it uses the same style as the ones in System Warnings</li>
+                        <li>Fix a bug where the Select All/Deselect All checkbox was not limited to the searched plugins when a search was active</li>
+                      </ul>
+                    </li>
+                    <li><strong>Installed Manufacturers</strong>
+                      <ul>
+                        <li>The installed plugins list inside an Installed Manufacturer's details screen now vertically expands to fill all available space, so more plugins are visible at once without scrolling</li>
+                      </ul>
+                    </li>
+                    <li><strong>App Launch</strong>
+                      <ul>
+                        <li>Fix a bug where the splash screen was no longer animating away when the app finished launching</li>
+                      </ul>
+                    </li>
+                  </ul>
+                
                 <h3>v1.3.3 (05/21/26)</h3>
                 <ul>
                     <li><strong>Out-of-Date Installed Plugins System Warning</strong>
@@ -437,7 +467,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.3.3.dmg" length="31226333" type="application/octet-stream" sparkle:edSignature="PooKo51t3Gf1l7tHpI+Ipo8Y03t3kqlIpAbOZ0lvh+yAR/gfQN9WKU1MqLoS91FqLHfD1cz3sRRU/yK0FWnNBw=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.3.4.dmg" length="31327760" type="application/octet-stream" sparkle:edSignature="+LdFty0luOMV+TzYdHUJBSRkb0MNTmfCNhIKC0AtzeTFmLrFzftHrdhZrjWWrHDX+EksAudWNiwVv0VKY+RPAw=="/>
         </item>
         
         <item>
