@@ -4,6 +4,19 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### 1.3.5
+- **Easier Selection Across All Lists**
+    - Lists with selectable items now support click and drag to make selections, so you can select multiple items in one continuous gesture. For example, clicking and holding on one list row and then dragging to the next one will select both rows
+    - Lists and tables with selectable rows now change color when the user hovers over them to make it clearer that they are clickable
+    - For lists that contain check boxes in their rows: The user can now click anywhere in a row — not just on the checkbox — to select an item, making rows much easier to select
+- **Keyboard Shortcut Support**
+    - The user can now press the Enter key on their keyboard to trigger the primary action of most screens
+    - Lists with selectable rows now support Shift + Click to more closely mimic the behavior of native macOS lists. For example, clicking the top-most row, holding the Shift key, and clicking the bottom-most row will select those 2 rows and every row in between them 
+- **Bug Fixes**
+    - Fix a bug where, for some plugins, Show In Finder and Uninstall actions would not reveal or remove all of a plugin's files when viewing data fetched via search or filters
+    - Fix an Uninstall Assistant bug where, for some plugins, selecting the checkbox for one plugin would select the equivalent checkbox for other plugins
+    - Fix a bug in the Installed Plugins list where a loading spinner could appear under the last plugin, even when all of the relevant plugins were already showing
+
 ### v1.3.4
 - **System Warnings**
   - System Warning detail screens now show a progress bar while their data is loading
