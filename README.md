@@ -4,6 +4,19 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### 1.3.6
+- **Plugin Station's First Birthday!**
+    - Implement a new birthday-themed app icon to celebrate Plugin Station's 1st birthday
+    - Add confetti and first birthday-related text to app startup and onboarding screens
+- **Plugin Station X Install Assistant Collaboration**
+    - Plugin Station has partnered with Install Assistant! Install Assistant is an incredibly useful utility that makes it possible to run your plugin installers in bulk. Simply download your installers and drag them into Install Assistant. Whether you're restoring a computer or just running installers for a few plugins you just bought, it's sure to save you loads of time
+    - Plugins that support Install Assistant will now be listed as such within plugin details screens. Clicking the button will open Install Assistant if it’s installed, or take the user to the page on the Install Assistant site where they can get an exclusive coupon if they don’t
+    - Plugin filter menus now allow the user to filter plugins based on whether or not they support Install Assistant, making it very easy to see what needs to be installed by the user and what the user can easily install in bulk with Install Assistant
+    - Settings now has a new tab called "Partnerships", which includes an Install Assistant section that the user can use to access their exclusive Install Assistant coupon
+- **Miscellaneous**
+    - Plugin descriptions are now truncated with a 'See More' button
+    - In plugin details screens, the manufacturer logo + plugin name column is now always a fixed width and height
+
 ### 1.3.5
 - **Easier Selection Across All Lists**
     - Lists with selectable items now support click and drag to make selections, so you can select multiple items in one continuous gesture. For example, clicking and holding on one list row and then dragging to the next one will select both rows

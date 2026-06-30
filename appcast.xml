@@ -4,12 +4,36 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.3.5</title>
-            <pubDate>Sun, 14 Jun 2026 17:40:51 -0700</pubDate>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
+            <title>1.3.6</title>
+            <pubDate>Tue, 30 Jun 2026 15:45:36 -0700</pubDate>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>1.3.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>1.3.6</h3>
+                <ul>
+                  <li><strong>Plugin Station's First Birthday!</strong>
+                    <ul>
+                      <li>Implement a new birthday-themed app icon to celebrate Plugin Station's 1st birthday</li>
+                      <li>Add confetti and first birthday-related text to app startup and onboarding screens</li>
+                    </ul>
+                  </li>
+                  <li><strong>Plugin Station X Install Assistant Collaboration</strong>
+                    <ul>
+                      <li>Plugin Station has partnered with Install Assistant! Install Assistant is an incredibly useful utility that makes it possible to run your plugin installers in bulk. Simply download your installers and drag them into Install Assistant. Between restoring a computer or just running installers for a few plugins after a purchase, it's sure to save loads of time</li>
+                      <li>Plugins that support Install Assistant will now be listed as such within plugin details screens. Clicking the button will open Install Assistant if it's installed, or take the user to the page on the Install Assistant site where they can get an exclusive coupon if they don't have it installed</li>
+                      <li>Plugin filter menus now allow the user to filter plugins based on whether or not they support Install Assistant, making it very easy to see what needs to be installed by the user and what the user can easily install in bulk with Install Assistant</li>
+                      <li>Settings now has a new tab called "Partnerships", which includes an Install Assistant section that the user can use to access their exclusive Install Assistant coupon</li>
+                    </ul>
+                  </li>
+                  <li><strong>Miscellaneous</strong>
+                    <ul>
+                      <li>Plugin descriptions are now truncated with a 'See More' button</li>
+                      <li>In plugin details screens, the manufacturer logo + plugin name column is now always a fixed width and height</li>
+                    </ul>
+                  </li>
+                </ul>
+                
                 <h3>1.3.5</h3>
                 <ul>
                   <li><strong>Easier Selection Across All Lists</strong>
@@ -492,7 +516,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.3.5.dmg" length="31607803" type="application/octet-stream" sparkle:edSignature="u2Y/X+hzAcCKzlr6oeBM+CUoiydwbxyHfCbyC4QPV+c6bMkf45k1ok04WVEawYXOknUlwc+Vlh5WUAVA+AQqDw=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.3.6.dmg" length="37473822" type="application/octet-stream" sparkle:edSignature="ZlLL7uyfw/u5ZI1vm20dhd8IX/zVJ+IRZKor0j2Y957kipptvLw3q0Z9ENZKE2BmYnd8cK7fDvEjuUdGwl2VDA=="/>
         </item>
         
         <item>
