@@ -4,6 +4,11 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### 1.3.7
+- Add optimizations to the app's license code redemption system
+- Make it possible to click the 'Open Message in Default Mail App' button in the 'Contact Us' screen without needing to type a subject and message
+- Fix a bug where Blue Cat Audio plugin versions were not being compared properly
+
 ### 1.3.6
 - **Plugin Station's First Birthday!**
     - Implement a new birthday-themed app icon to celebrate Plugin Station's 1st birthday
