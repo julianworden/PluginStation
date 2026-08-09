@@ -4,12 +4,71 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.3.7</title>
-            <pubDate>Tue, 21 Jul 2026 16:41:37 -0700</pubDate>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>1.3.7</sparkle:shortVersionString>
+            <title>1.4.0</title>
+            <pubDate>Sun, 09 Aug 2026 15:48:46 -0700</pubDate>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>1.4.0</h3>
+                <ul>
+                    <li><strong>NEW FEATURE: Plugin Archiving</strong>
+                        <ul>
+                            <li>By very popular demand, users can now "Archive" plugins using Plugin Station. Archiving is meant to serve as a middle ground between leaving plugin files in your DAW's "view" (a place it can see them), and uninstalling them completely. This is useful for a variety of use cases:
+                                <ul>
+                                    <li><strong>Troubleshooting:</strong> When a plugin file is causing a crash in a DAW, it can be difficult to tell which plugin is causing the crash, especially in sessions with many plugins. Archiving gives the user an easy way to move plugins in and out of folders that the DAW sees to determine what's causing the issue</li>
+                                    <li><strong>Cancelled Plugin Subscriptions/Free Trials:</strong> Upon cancelling a plugin subscription or after cancelling a free trial, the user may not want to completely uninstall the plugin(s). However, every time they open their DAW, many manufacturers show popup windows telling the user they have plugins installed that they don't have a license for. To avoid this, the user can simply archive all of the plugins they no longer have a license for, and then unarchive them once they need to start using them again</li>
+                                    <li><strong>Using Multiple DAWs:</strong> Some users have workflows that require multiple DAWs, and they have plugins that they prefer to only use in one and not the other. Plugin Station makes it easy to archive plugins you don't need in whatever DAW you're using as you go back and forth, resulting in a much more streamlined plugin list in the DAW</li>
+                                </ul>
+                            </li>
+                            <li>To use archiving:
+                                <ul>
+                                    <li>Existing users must navigate to Settings &gt; Installed Software &gt; Rescan Installed Plugins &gt; Select Archive Folder. Choose a folder to use as the Archive folder, this is where all archived plugin files will go when you archive them. Choose an "Organize By:" option to choose how to organize the files within subfolders in the Archive folder. The option doesn't change anything within the app, it's just meant to make the folder easier to look at in Finder. Complete a Rescan</li>
+                                    <li>Brand new users will see the Select Archive Folder button during onboarding</li>
+                                </ul>
+                            </li>
+                            <li>Many existing screens now allow the user to archive plugins:
+                                <ul>
+                                    <li>Installed Plugins list
+                                        <ul>
+                                            <li>Select multiple plugins by clicking on plugins while holding the CMD key on the keyboard, or by clicking a plugin &gt; holding Shift &gt; and clicking the bottom most plugin in a range of plugins. Right click one and use one of the archiving/unarchiving options</li>
+                                            <li>Use these selection methods in combination with installed plugin filters to archive plugins in bulk based on specific criteria, like manufacturer name, unsupported macOS versions, and more</li>
+                                        </ul>
+                                    </li>
+                                    <li>Installed Plugin Details</li>
+                                    <li>Installed Manufacturer Details</li>
+                                    <li>Uninstall Assistant</li>
+                                    <li>System Warnings tab</li>
+                                    <li>Storage Manager</li>
+                                    <li>Almost anywhere that uninstalling was previously possible</li>
+                                </ul>
+                            </li>
+                            <li>New filters are now available in the Installed Plugins List's filters to allow for showing only/hiding archived plugins</li>
+                        </ul>
+                    </li>
+                    <li><strong>System Warnings Settings</strong>
+                        <ul>
+                            <li>The settings screen presented by clicking the gear icon at the top of the System Warnings tab now presents new settings for hiding archived plugins and always showing warnings about specific installed plugin formats</li>
+                            <li>Enable the "Hide Archived Plugins In System Warnings" option to make sure that <strong>fully</strong> archived plugins do not trigger any system warnings</li>
+                            <li>Enable the "Always Warn Me About Installed &lt;pluginFormat&gt; Plugins" option to make sure that the app always presents a warning about an installed plugin format, even if a DAW is installed that supports it</li>
+                        </ul>
+                    </li>
+                    <li><strong>Miscellaneous Changes</strong>
+                        <ul>
+                            <li>Make it possible to uninstall specific formats in bulk by selecting multiple plugins in the Installed Plugins list and right clicking one of them</li>
+                            <li>Upon syncing changes to installed plugins with the user's account, the popup that appears to show the changes now has more readable messages in the "Updated" tab. For example, if a user had a plugin's VST and VST3 files installed and then decided to install the AU file later, the "Updated" tab now says "Installed AU Format" for that plugin to make it easier to tell what changed for that plugin</li>
+                        </ul>
+                    </li>
+                    <li><strong>Miscellaneous Bug Fixes</strong>
+                        <ul>
+                            <li>Fix a bug when uninstalling multiple plugins where it was possible for some plugins to uninstall successfully, while others silently failed to uninstall</li>
+                            <li>Fix a bug where it was possible to select a plugin in the Installed Plugins list, enable a filter/sort or search, select other plugins, and see a "Multiple Plugins Selected" message</li>
+                            <li>Fix a bug where the duplicate installed plugins system warning would not detect duplicate Waves files if they were within the same 'Plug-Ins v&lt;versionNumber&gt;' folder</li>
+                            <li>Fix a bug where the app slowed down in the Installed Plugins tab while certain plugins were selected in the list</li>
+                        </ul>
+                    </li>
+                </ul>
+                
                 <h3>1.3.7</h3>
                 <ul>
                     <li>Add optimizations to the app's license code redemption system</li>
@@ -523,7 +582,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.3.7.dmg" length="37604682" type="application/octet-stream" sparkle:edSignature="7bYCQQXhbwCv8X7UVmSWJL9sR0V6FqriY7H+sk+jEemP0ZQbAG2ziQFmluTcbkEP7f+6cqdeu15k+VGX9Kq8Bg=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.4.0.dmg" length="32721770" type="application/octet-stream" sparkle:edSignature="XLHFCoCh4HMTFyrVJrXXPDBs+T78kxyqCcFuusBxzgpIhawuap7fTW1XZf2NNUtc+Ag5i/ACSOrPXVchJ3HbDg=="/>
         </item>
         
         <item>

@@ -4,6 +4,40 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### 1.4.0
+- **NEW FEATURE: Plugin Archiving**
+    - By very popular demand, users can now "Archive" plugins using Plugin Station. Archiving is meant to serve as a middle ground between leaving plugin files in your DAW's "view" (a place it can see them), and uninstalling them completely. This is useful for a variety of use cases:
+        - **Troubleshooting:** When a plugin file is causing a crash in a DAW, it can be difficult to tell which plugin is causing the crash, especially in sessions with many plugins. Archiving gives the user an easy way to move plugins in and out of folders that the DAW sees to determine what's causing the issue
+        - **Cancelled Plugin Subscriptions/Free Trials:** Upon cancelling a plugin subscription or after cancelling a free trial, the user may not want to completely uninstall the plugin(s). However, every time they open their DAW, many manufacturers show popup windows telling the user they have plugins installed that they don't have a license for. To avoid this, the user can simply archive all of the plugins they no longer have a license for, and then unarchive them once they need to start using them again
+        - **Using Multiple DAWs:** Some users have workflows that require multiple DAWs, and they have plugins that they prefer to only use in one and not the other. Plugin Station makes it easy to archive plugins you don't need in whatever DAW you're using as you go back and forth, resulting in a much more streamlined plugin list in the DAW
+    - To use archiving:
+        - Existing users must navigate to Settings > Installed Software > Rescan Installed Plugins > Select Archive Folder. Choose a folder to use as the Archive folder, this is where all archived plugin files will go when you archive them. Choose an "Organize By:" option to choose how to organize the files within subfolders in the Archive folder. The option doesn't change anything within the app, it's just meant to make the folder easier to look at in Finder. Complete a Rescan
+        - Brand new users will see the Select Archive Folder button during onboarding
+    - Many existing screens now allow the user to archive plugins:
+        - Installed Plugins list
+            - Select multiple plugins by clicking on plugins while holding the CMD key on the keyboard, or by clicking a plugin > holding Shift > and clicking the bottom most plugin in a range of plugins. Right click one and use one of the archiving/unarchiving options
+            - Use these selection methods in combination with installed plugin filters to archive plugins in bulk based on specific criteria, like manufacturer name, unsupported macOS versions, and more
+        - Installed Plugin Details
+        - Installed Manufacturer Details
+        - Uninstall Assistant
+        - System Warnings tab
+        - Storage Manager
+        - Almost anywhere that uninstalling was previously possible
+    - New filters are now available in the Installed Plugins List's filters to allow for showing only/hiding archived plugins
+- **System Warnings Settings**
+    - The settings screen presented by clicking the gear icon at the top of the System Warnings tab now presents new settings for hiding archived plugins and always showing warnings about specific installed plugin formats
+    - Enable the "Hide Archived Plugins In System Warnings" option to make sure that **fully** archived plugins do not trigger any system warnings
+    - Enable the "Always Warn Me About Installed <pluginFormat> Plugins" option to make sure that the app always presents a warning about an installed plugin format, even if a DAW is installed that supports it
+- **Miscellaneous Changes**
+    - Make it possible to uninstall specific formats in bulk by selecting multiple plugins in the Installed Plugins list and right clicking one of them
+    - Upon syncing changes to installed plugins with the user's account, the popup that appears to show the changes now has more readable messages in the "Updated" tab. For example, if a user had a plugin's VST and VST3 files installed and then decided to install the AU file later, the "Updated" tab now says "Installed AU Format" for that plugin to make it easier to tell what changed for that plugin
+- **Miscellaneous Bug Fixes**
+    - Fix a bug when uninstalling multiple plugins where it was possible for some plugins to uninstall successfully, while others silently failed to uninstall
+    - Fix a bug where it was possible to select a plugin in the Installed Plugins list, enable a filter/sort or search, select other plugins, and see a "Multiple Plugins Selected" message
+    - Fix a bug where the duplicate installed plugins system warning would not detect duplicate Waves files if they were within the same 'Plug-Ins v<versionNumber>' folder
+    - Fix a bug where the app slowed down in the Installed Plugins tab while certain plugins were selected in the list
+
+
 ### 1.3.7
 - Add optimizations to the app's license code redemption system
 - Make it possible to click the 'Open Message in Default Mail App' button in the 'Contact Us' screen without needing to type a subject and message
