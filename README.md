@@ -4,6 +4,26 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### 1.4.1
+- **Miscellaneous Improvements**
+  - Choosing a folder as a custom plugin location will now present a confirmation/warning alert if the selected folder contains no VST, VST3, AU, AAX, or Waves plugin files
+  - Add more base-level system folders that the user cannot select as custom plugin folder locations, such as Music, Documents, Desktop, Downloads, or Library. These folders tend to contain a significant amount of data that Plugin Station cannot index efficiently, leading the app to operate extremely slowly when one of them is selected
+  - Add more descriptive error messages to alerts that appear when a plugin archiving error occurs
+  - It is now significantly easier to uninstall/archive plugins in bulk via the Duplicate Installed Plugin System Warning. Now, the user can use the checkbox in the top left corner of the list to select specific duplicate files based on file path and archive status. For example, if the user has a series of duplicate files in one specific folder, like /Desktop/Plugins, the app will allow them to select all duplicate files in /Desktop/Plugins in one click so that they can uninstall or archive them all without selecting them individually
+  - Plugin rescanning speeds have been significantly improved. In the vast majority of cases, a plugin rescan will now complete in as little as half the time that it did before  
+- **Bug Fixes**
+  - Fix a rare bug where, under some circumstances, Plugin Station would detect non-plugin files as plugin files. This was mainly affecting users using custom plugin folder locations that did not contain any plugin files
+    - The first time an existing user launches 1.4.1, Plugin Station performs a one-time cleanup of their account. It checks every installed plugin on the user's account for file paths that do not point at real plugin files, removes those paths from both the local cache and the user's account, and deletes the entry entirely when nothing valid remains. This cleanup never deletes a file from the user's computer — it only corrects the app's records. New users skip this entirely, as plugin scans/rescans are now set up to never run into this issue in the first place
+  - Fix various Archive-related bugs that would surface upon archiving/unarchiving plugins that have duplicate files installed
+  - Fix a bug where some System Warning details views were not immediately refreshing after archiving files from elsewhere in the app
+  - Fix a bug where archiving every plugin in an Unneeded Installed Plugin Format System Warning left its details screen open on an empty list instead of dismissing it
+  - Fix a bug where users with no DAWs installed were not shown any Unneeded Installed Plugin Format System Warnings, even though every installed plugin format is unneeded in that situation
+  - Fix various bugs that made it possible for the user's installed plugins to drift out of sync with what was on their account. Plugin Station now performs various operations behind the scenes to ensure that this drift doesn't happen, but if it ever does, there are also other mechanisms in place to automatically bring the system back into sync with the user's account
+  - Fix a bug where, under some conditions, the red out-of-sync plugins banner would appear even when nothing had actually changed on the user's system
+  - Fix a bug where applying plugin filters with every option turned off behaved differently from clicking the Clear button
+  - Fix a bug where a plugin installed in two locations could report a different version from one launch to the next. Plugin Station now always describes the newer of the two builds, so a current plugin is no longer reported as out of date because an older copy was found first
+  - Fix a bug where, on small screens, the Installed Manufacturer Details view only showed one plugin at a time in the list of installed plugins from the selected manufacturer
+
 ### 1.4.0
 - **NEW FEATURE: Plugin Archiving**
     - By very popular demand, users can now "Archive" plugins using Plugin Station. Archiving is meant to serve as a middle ground between leaving plugin files in your DAW's "view" (a place it can see them), and uninstalling them completely. This is useful for a variety of use cases:
@@ -36,7 +56,6 @@ Here are the release notes for all public and beta versions of Plugin Station.
     - Fix a bug where it was possible to select a plugin in the Installed Plugins list, enable a filter/sort or search, select other plugins, and see a "Multiple Plugins Selected" message
     - Fix a bug where the duplicate installed plugins system warning would not detect duplicate Waves files if they were within the same 'Plug-Ins v<versionNumber>' folder
     - Fix a bug where the app slowed down in the Installed Plugins tab while certain plugins were selected in the list
-
 
 ### 1.3.7
 - Add optimizations to the app's license code redemption system

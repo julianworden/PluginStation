@@ -4,12 +4,44 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.4.0</title>
-            <pubDate>Sun, 09 Aug 2026 15:48:46 -0700</pubDate>
-            <sparkle:version>55</sparkle:version>
-            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <title>1.4.1</title>
+            <pubDate>Tue, 25 Aug 2026 12:55:24 -0700</pubDate>
+            <sparkle:version>56</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>1.4.1</h3>
+                <ul>
+                    <li><strong>Miscellaneous Improvements</strong>
+                        <ul>
+                            <li>Choosing a folder as a custom plugin location will now present a confirmation/warning alert if the selected folder contains no VST, VST3, AU, AAX, or Waves plugin files</li>
+                            <li>Add more base-level system folders that the user cannot select as custom plugin folder locations, such as Music, Documents, Desktop, Downloads, or Library. These folders tend to contain a significant amount of data that Plugin Station cannot index efficiently, leading the app to operate extremely slowly when one of them is selected</li>
+                            <li>Add more descriptive error messages to alerts that appear when a plugin archiving error occurs</li>
+                            <li>It is now significantly easier to uninstall/archive plugins in bulk via the Duplicate Installed Plugin System Warning. Now, the user can use the checkbox in the top left corner of the list to select specific duplicate files based on file path and archive status. For example, if the user has a series of duplicate files in one specific folder, like /Desktop/Plugins, the app will allow them to select all duplicate files in /Desktop/Plugins in one click so that they can uninstall or archive them all without selecting them individually</li>
+                            <li>Plugin rescanning speeds have been significantly improved. In the vast majority of cases, a plugin rescan will now complete in as little as half the time that it did before</li>
+                        </ul>
+                    </li>
+                    <li><strong>Bug Fixes</strong>
+                        <ul>
+                            <li>Fix a rare bug where, under some circumstances, Plugin Station would detect non-plugin files as plugin files. This was mainly affecting users using custom plugin folder locations that did not contain any plugin files
+                                <ul>
+                                    <li>The first time an existing user launches 1.4.1, Plugin Station performs a one-time cleanup of their account. It checks every installed plugin on the user's account for file paths that do not point at real plugin files, removes those paths from both the local cache and the user's account, and deletes the entry entirely when nothing valid remains. This cleanup never deletes a file from the user's computer — it only corrects the app's records. New users skip this entirely, as plugin scans/rescans are now set up to never run into this issue in the first place</li>
+                                </ul>
+                            </li>
+                            <li>Fix various Archive-related bugs that would surface upon archiving/unarchiving plugins that have duplicate files installed</li>
+                            <li>Fix a bug where some System Warning details views were not immediately refreshing after archiving files from elsewhere in the app</li>
+                            <li>Fix a bug where archiving every plugin in an Unneeded Installed Plugin Format System Warning left its details screen open on an empty list instead of dismissing it</li>
+                            <li>Fix a bug where users with no DAWs installed were not shown any Unneeded Installed Plugin Format System Warnings, even though every installed plugin format is unneeded in that situation</li>
+                            <li>Fix various bugs that made it possible for the user's installed plugins to drift out of sync with what was on their account. Plugin Station now performs various operations behind the scenes to ensure that this drift doesn't happen, but if it ever does, there are also other mechanisms in place to automatically bring the system back into sync with the user's account</li>
+                            <li>Fix a bug where, under some conditions, the red out-of-sync plugins banner would appear even when nothing had actually changed on the user's system</li>
+                            <li>Fix a bug where applying plugin filters with every option turned off behaved differently from clicking the Clear button</li>
+                            <li>Fix a bug where a plugin installed in two locations could report a different version from one launch to the next. Plugin Station now always describes the newer of the two builds, so a current plugin is no longer reported as out of date because an older copy was found first</li>
+                            <li>Fix a bug where, on small screens, the Installed Manufacturer Details view only showed one plugin at a time in the list of installed plugins from the selected manufacturer</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                
                 <h3>1.4.0</h3>
                 <ul>
                     <li><strong>NEW FEATURE: Plugin Archiving</strong>
@@ -582,7 +614,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.4.0.dmg" length="32721770" type="application/octet-stream" sparkle:edSignature="XLHFCoCh4HMTFyrVJrXXPDBs+T78kxyqCcFuusBxzgpIhawuap7fTW1XZf2NNUtc+Ag5i/ACSOrPXVchJ3HbDg=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.4.1.dmg" length="32905878" type="application/octet-stream" sparkle:edSignature="C5OlJelE/reMiuoNsnjSJYyYggWXTpxyEHYjOXf1xy/LgNh/eEQ3+jjWjMlBzt6+BFUJja91wJo17mylvWVuCQ=="/>
         </item>
         
         <item>
