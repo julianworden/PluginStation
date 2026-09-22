@@ -4,6 +4,28 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### 1.5.0
+- **NEW FEATURE: Custom Plugin Tags**
+  - The user can now create custom tags to organize their installed plugins any way they like
+  - To create a tag, click the new "Tags" tab in the left sidebar of the app and then select the "+" button in toolbar at the top. To add plugins to that tag, you can click the "Tag Plugins +" button that appears after selecting a tag from the tags list. The user can also right click plugins in the list shown in the Installed Plugins tab > Add Tag, or click the "+ Add Tag" button that appears after selecting a plugin from the installed plugins list
+  - The previously mentioned "Tags" tab in the left sidebar reveals all of the tags the user has created. Selecting a tag from the tags list shows more details about that tag, along with each plugin the tag is applied to. By default, tagged plugins will only show here if they are installed on the System Profile that the user is currently using. To view all of the installed plugins that are tagged with the selected tag, the user can disable the "Only show plugins installed on this System Profile" toggle
+  - To edit or delete a tag, the user can right click it from the tags list and click delete or edit, or select the tag from the tags list and use the edit and delete buttons in the toolbar at the top
+  - To remove a tag from a plugin, the user can right click it from the Installed Plugins list in the Installed Plugins tab > Remove Tags. An installed plugin details screen also lists an x mark next to each tag, the user can click it to remove that tag from that plugin
+  - The user can filter their installed plugins based on one or more tags using a new Tags filter in the installed plugin filter menu
+  - Plugins that have one or more tags now show a tag icon everywhere plugins are listed — the Installed Plugins list, Storage Manager, the Uninstall Assistant, and every System Warning details screen (Out-of-Date, Superseded, Unsupported macOS Version, Duplicate Installed Plugin Files, and Unneeded Installed Plugin Format). Hovering over the icon shows that plugin's tag(s)
+  - An installed plugin's details screen now shows that plugin's tags in the About section
+- **Miscellaneous Improvements**
+  - Make it easier to access resources regarding how to use Plugin Station
+    - Settings now includes a Resources tab in the left sidebar. This tab includes links to various video tutorials about Plugin Station, along with a link to the FAQ page on the Plugin Station website 
+    - The Help tab in the macOS Menu Bar now includes buttons to quickly navigate to all of the previously mentioned resources that are also accessible via Settings > Resources. Previously, this Help tab existed but it didn't do anything
+  - Redesign the System Profile State details screen so that it's more consistent with the design of the other lists throughout the app
+  - It is now possible to filter based on multiple types and manufacturer names at one time via the filter menus in the Installed Plugins and Browse Plugins tabs
+  - Add a macOS 27 (Golden Gate) callout to the filter menus in the Installed Plugins and Browse Plugins tab regarding why it is not yet possible to filter based on macOS 27 support
+- **Bug Fixes**
+  - Fix a bug where the Duplicate Installed Plugin Files System Warning was detecting non-duplicate plugins as duplicates
+  - Fix a bug where uninstalling an archived plugin would fail under some conditions 
+  - Fix a bug where it was possible for the red out-of-sync plugins banner to appear following an uninstall/archive. This should never happen, as the app syncs the change with the user's account in the background
+
 ### 1.4.1
 - **Miscellaneous Improvements**
   - Choosing a folder as a custom plugin location will now present a confirmation/warning alert if the selected folder contains no VST, VST3, AU, AAX, or Waves plugin files

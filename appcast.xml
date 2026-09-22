@@ -4,12 +4,49 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.4.1</title>
-            <pubDate>Tue, 25 Aug 2026 12:55:24 -0700</pubDate>
-            <sparkle:version>56</sparkle:version>
-            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <title>1.5.0</title>
+            <pubDate>Tue, 22 Sep 2026 15:41:40 -0700</pubDate>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>1.5.0</h3>
+                <ul>
+                  <li><strong>NEW FEATURE: Custom Plugin Tags</strong>
+                    <ul>
+                      <li>The user can now create custom tags to organize their installed plugins any way they like</li>
+                      <li>To create a tag, click the new "Tags" tab in the left sidebar of the app and then select the "+" button in toolbar at the top. To add plugins to that tag, you can click the "Tag Plugins +" button that appears after selecting a tag from the tags list. The user can also right click plugins in the list shown in the Installed Plugins tab &gt; Add Tag, or click the "+ Add Tag" button that appears after selecting a plugin from the installed plugins list</li>
+                      <li>The previously mentioned "Tags" tab in the left sidebar reveals all of the tags the user has created. Selecting a tag from the tags list shows more details about that tag, along with each plugin the tag is applied to. By default, tagged plugins will only show here if they are installed on the System Profile that the user is currently using. To view all of the installed plugins that are tagged with the selected tag, the user can disable the "Only show plugins installed on this System Profile" toggle</li>
+                      <li>To edit or delete a tag, the user can right click it from the tags list and click delete or edit, or select the tag from the tags list and use the edit and delete buttons in the toolbar at the top</li>
+                      <li>To remove a tag from a plugin, the user can right click it from the Installed Plugins list in the Installed Plugins tab &gt; Remove Tags. An installed plugin details screen also lists an x mark next to each tag, the user can click it to remove that tag from that plugin</li>
+                      <li>The user can filter their installed plugins based on one or more tags using a new Tags filter in the installed plugin filter menu</li>
+                      <li>Plugins that have one or more tags now show a tag icon everywhere plugins are listed — the Installed Plugins list, Storage Manager, the Uninstall Assistant, and every System Warning details screen (Out-of-Date, Superseded, Unsupported macOS Version, Duplicate Installed Plugin Files, and Unneeded Installed Plugin Format). Hovering over the icon shows that plugin's tag(s)</li>
+                      <li>An installed plugin's details screen now shows that plugin's tags in the About section</li>
+                    </ul>
+                  </li>
+                  <li><strong>Miscellaneous Improvements</strong>
+                    <ul>
+                      <li>Make it easier to access resources regarding how to use Plugin Station
+                        <ul>
+                          <li>Settings now includes a Resources tab in the left sidebar. This tab includes links to various video tutorials about Plugin Station, along with a link to the FAQ page on the Plugin Station website</li>
+                          <li>The Help tab in the macOS Menu Bar now includes buttons to quickly navigate to all of the previously mentioned resources that are also accessible via Settings &gt; Resources. Previously, this Help tab existed but it didn't do anything</li>
+                        </ul>
+                      </li>
+                      <li>Redesign the System Profile State details screen so that it's more consistent with the design of the other lists throughout the app</li>
+                      <li>It is now possible to filter based on multiple types and manufacturer names at one time via the filter menus in the Installed Plugins and Browse Plugins tabs</li>
+                      <li>Add a macOS 27 (Golden Gate) callout to the filter menus in the Installed Plugins and Browse Plugins tab regarding why it is not yet possible to filter based on macOS 27 support</li>
+                    </ul>
+                  </li>
+                  <li><strong>Bug Fixes</strong>
+                    <ul>
+                      <li>Fix a bug where the Duplicate Installed Plugin Files System Warning was detecting non-duplicate plugins as duplicates</li>
+                      <li>Fix a bug where uninstalling an archived plugin would fail under some conditions</li>
+                      <li>Fix a bug where it was possible for the red out-of-sync plugins banner to appear following an uninstall/archive. This should never happen, as the app syncs the change with the user's account in the background</li>
+                    </ul>
+                  </li>
+                </ul>
+
+
                 <h3>1.4.1</h3>
                 <ul>
                     <li><strong>Miscellaneous Improvements</strong>
@@ -332,7 +369,7 @@
                 
                 <h3>v1.2.9 (01/26/26)</h3>
                 <ul>
-                    <li>Fix a rare bug where the user may see an erroneous "Trouble reaching the Branch servers, please try again shortly" error message after loading plugin details</li>
+                    <li>Fix a rare bug where the user may see an erroneous "Trouble reaching the Branch servers, please try again shortly" error message after loading plugin details</li>xw
                 </ul>
                 
                 <h3>v1.2.8 (01/25/26)</h3>
@@ -614,7 +651,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.4.1.dmg" length="32905878" type="application/octet-stream" sparkle:edSignature="C5OlJelE/reMiuoNsnjSJYyYggWXTpxyEHYjOXf1xy/LgNh/eEQ3+jjWjMlBzt6+BFUJja91wJo17mylvWVuCQ=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.5.0.dmg" length="33693310" type="application/octet-stream" sparkle:edSignature="5Ps9xLWhO0UpaikuHU5Zp3HlbiZJH9WVvwuW+Tfxk+x2GB9n0vZ+coxYEuEqKMrUQA86p3hrbNiS7ah1yWHSAw=="/>
         </item>
         
         <item>
