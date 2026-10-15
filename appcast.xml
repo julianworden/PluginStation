@@ -4,12 +4,51 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.5.0</title>
-            <pubDate>Tue, 22 Sep 2026 15:41:40 -0700</pubDate>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+            <title>1.6.0</title>
+            <pubDate>Thu, 15 Oct 2026 13:21:31 -0700</pubDate>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>1.6.0</h3>
+                <ul>
+                  <li><strong>NEW FEATURE: UAD Assistant</strong>
+                    <ul>
+                      <li>UAD Assistant is a new Utilities tab in the app's left sidebar that makes it easy for the user to quickly uninstall unauthorized UAD DSP plugins from their computer. This is helpful because UAD's DSP plugins installer does not allow the user to pick and choose which UAD plugins are installed based on license status. Instead, it installs all of them</li>
+                      <li>To use UAD Assistant, the user must export a UADSystemProfile.txt file from the UAD Meter &amp; Control Panel app and import it into Plugin Station. Plugin Station will analyze this file, which includes license/trial statuses for each UAD DSP plugin, and compare it to what's installed on the user's computer to determine what to uninstall</li>
+                      <li>Plugin Station locally stores a copy of the UADSystemProfile.txt so that the app can easily reference it in the future. The user never has to generate a new file unless they purchase, or start a trial for, a new UAD plugin. The file never never touches the Plugin Station servers</li>
+                      <li>UAD Assistant is not affiliated with or endorsed by Universal Audio in any capacity. It simply serves as a way for users to more efficiently manage UAD plugins</li>
+                    </ul>
+                  </li>
+                  <li><strong>Sidebar Customizability</strong>
+                    <ul>
+                      <li>There is now an Edit button in the toolbar of the app's main, left sidebar. Clicking this button enters an edit mode that allows the user to customize which tabs appear in the left sidebar of the app so that they can hide the tabs they don't usually use</li>
+                    </ul>
+                  </li>
+                  <li><strong>New Filter/Sort Options</strong>
+                    <ul>
+                      <li>In the Installed Plugins and Browse Plugins tabs, the user can now filter based on UAD plugin type (DSP or UADx/Native). This data was already present at the end of each plugin's name, but the user couldn't filter on it before</li>
+                      <li>In the Installed Plugins tab, the user can now filter based on whether or not a plugin has at least one format that is out of date. The out-of-date installed plugins system warning was already showing this data, but users wanted to access it in filters as well</li>
+                      <li>In the Installed Plugins tab, the user can now sort by tag name</li>
+                    </ul>
+                  </li>
+                  <li><strong>Stop Supporting Waves WaveShell Files</strong>
+                    <ul>
+                      <li>Plugin Station no longer detects WaveShell files installed on the user's computer. Tracking updates for these files is unnecessary since it seems like they only update when at least one Waves plugin gets updated anyway. The user can't update them on their own and viewing them in the Installed Plugins tab isn't useful, so there's no use in having them clutter up the app</li>
+                      <li>The app will automatically remove these files from existing users' accounts upon loading this update for the first time</li>
+                    </ul>
+                  </li>
+                  <li><strong>Miscellaneous Changes</strong>
+                    <ul>
+                      <li>Move JSON cache files into /Documents/Plugin Station to keep things more organized. They were just stored in /Documents. For existing users, the app will automatically move these files into this new location upon launching this update for the first time</li>
+                      <li>Add an eye button to the toolbar of the Installed Plugins tab. Clicking this button will present a popover that the user can use to hide any of the icons that appear in plugin rows within the list, giving the user the ability to hide info they don't care about</li>
+                      <li>The Installed Plugins list now visually changes when filter/sorting changes are loading to make it clearer that the list is loading</li>
+                      <li>Stop relying on computer name to determine whether or not the user is using a computer connected to their account. Switch to a much more stable identifier that the system will not change</li>
+                    </ul>
+                  </li>
+                </ul>
+
+
                 <h3>1.5.0</h3>
                 <ul>
                   <li><strong>NEW FEATURE: Custom Plugin Tags</strong>
@@ -651,7 +690,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.5.0.dmg" length="33693310" type="application/octet-stream" sparkle:edSignature="5Ps9xLWhO0UpaikuHU5Zp3HlbiZJH9WVvwuW+Tfxk+x2GB9n0vZ+coxYEuEqKMrUQA86p3hrbNiS7ah1yWHSAw=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.6.0.dmg" length="35423876" type="application/octet-stream" sparkle:edSignature="vSDMCQm5WtusThrrU+2+w4kkAxvHyZ6QyFBDxPPgIJ17SHO6zQtvZPweb5o6I/yeDEMezJSKkAO70SMbaqNpCg=="/>
         </item>
         
         <item>

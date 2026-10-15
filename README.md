@@ -4,6 +4,27 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### 1.6.0
+- **NEW FEATURE: UAD Assistant**
+  - UAD Assistant is a new Utilities tab in the app's left sidebar that makes it easy for the user to quickly uninstall unauthorized UAD DSP plugins from their computer. This is helpful because UAD's DSP plugins installer does not allow the user to pick and choose which UAD plugins are installed based on license status. Instead, it installs all of them
+  - To use UAD Assistant, the user must export a UADSystemProfile.txt file from the UAD Meter & Control Panel app and import it into Plugin Station. Plugin Station will analyze this file, which includes license/trial statuses for each UAD DSP plugin, and compare it to what's installed on the user's computer to determine what to uninstall
+  - Plugin Station locally stores a copy of the UADSystemProfile.txt so that the app can easily reference it in the future. The user never has to generate a new file unless they purchase, or start a trial for, a new UAD plugin. The file never never touches the Plugin Station servers
+  - UAD Assistant is not affiliated with or endorsed by Universal Audio in any capacity. It simply serves as a way for users to more efficiently manage UAD plugins
+- **Sidebar Customizability**
+  - There is now an Edit button in the toolbar of the app's main, left sidebar. Clicking this button enters an edit mode that allows the user to customize which tabs appear in the left sidebar of the app so that they can hide the tabs they don't usually use
+- **New Filter/Sort Options**
+  - In the Installed Plugins and Browse Plugins tabs, the user can now filter based on UAD plugin type (DSP or UADx/Native). This data was already present at the end of each plugin's name, but the user couldn't filter on it before
+  - In the Installed Plugins tab, the user can now filter based on whether or not a plugin has at least one format that is out of date. The out-of-date installed plugins system warning was already showing this data, but users wanted to access it in filters as well
+  - In the Installed Plugins tab, the user can now sort by tag name
+- **Stop Supporting Waves WaveShell Files**
+  - Plugin Station no longer detects WaveShell files installed on the user's computer. Tracking updates for these files is unnecessary since it seems like they only update when at least one Waves plugin gets updated anyway. The user can't update them on their own and viewing them in the Installed Plugins tab isn't useful, so there's no use in having them clutter up the app
+  - The app will automatically remove these files from existing users' accounts upon loading this update for the first time
+- **Miscellaneous Changes**
+  - Move JSON cache files into /Documents/Plugin Station to keep things more organized. They were just stored in /Documents. For existing users, the app will automatically move these files into this new location upon launching this update for the first time
+  - Add an eye button to the toolbar of the Installed Plugins tab. Clicking this button will present a popover that the user can use to hide any of the icons that appear in plugin rows within the list, giving the user the ability to hide info they don't care about
+  - The Installed Plugins list now visually changes when filter/sorting changes are loading to make it clearer that the list is loading
+  - Stop relying on computer name to determine whether or not the user is using a computer connected to their account. Switch to a much more stable identifier that the system will not change 
+
 ### 1.5.0
 - **NEW FEATURE: Custom Plugin Tags**
   - The user can now create custom tags to organize their installed plugins any way they like
