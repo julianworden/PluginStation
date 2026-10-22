@@ -4,6 +4,14 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### 1.6.1
+- **NEW FEATURE: In-App Tutorial**
+  - Plugin Station now includes an in-app tutorial that walks new and existing users through how to use Plugin Station. New users will see the option to view this in-app tutorial/tour after completing onboarding for the first time, with the option to skip it. The first time an existing Plugin Station user runs this version of Plugin Station, they will see a popup asking if they'd like to take the tour
+  - Access this tutorial at any time via Settings > Resources > In-App Tutorial
+- **Miscellaneous Changes**
+  - It is now possible to archive, unarchive, or uninstall plugins while a previous archive, unarchive, or uninstall operation sync is already taking place in the background. Before this update, it was not possible to perform one of these operations while the app was syncing new file changes with the user's account
+  - The user will now see a warning in their out-of-date installed plugins System Warning details screen any time a major version update is suggested. Plugin Station does not have the capacity to tell if a major version update is a paid update or not, so this warning tells the user what they should do if it is a paid upgrade that they don't want to pay for.
+
 ### 1.6.0
 - **NEW FEATURE: UAD Assistant**
   - UAD Assistant is a new Utilities tab in the app's left sidebar that makes it easy for the user to quickly uninstall unauthorized UAD DSP plugins from their computer. This is helpful because UAD's DSP plugins installer does not allow the user to pick and choose which UAD plugins are installed based on license status. Instead, it installs all of them

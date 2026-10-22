@@ -4,12 +4,29 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.6.0</title>
-            <pubDate>Thu, 15 Oct 2026 13:21:31 -0700</pubDate>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+            <title>1.6.1</title>
+            <pubDate>Wed, 21 Oct 2026 17:22:32 -0700</pubDate>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>1.6.1</h3>
+                <ul>
+                  <li><strong>NEW FEATURE: In-App Tutorial</strong>
+                    <ul>
+                      <li>Plugin Station now includes an in-app tutorial that walks new and existing users through how to use Plugin Station. New users will see the option to view this in-app tutorial/tour after completing onboarding for the first time, with the option to skip it. The first time an existing Plugin Station user runs this version of Plugin Station, they will see a popup asking if they'd like to take the tour</li>
+                      <li>Access this tutorial at any time via Settings > Resources > In-App Tutorial</li>
+                    </ul>
+                  </li>
+                  <li><strong>Miscellaneous Changes</strong>
+                    <ul>
+                      <li>It is now possible to archive, unarchive, or uninstall plugins while a previous archive, unarchive, or uninstall operation sync is already taking place in the background. Before this update, it was not possible to perform one of these operations while the app was syncing new file changes with the user's account</li>
+                      <li>The user will now see a warning in their out-of-date installed plugins System Warning details screen any time a major version update is suggested. Plugin Station does not have the capacity to tell if a major version update is a paid update or not, so this warning tells the user what they should do if it is a paid upgrade that they don't want to pay for.</li>
+                    </ul>
+                  </li>
+                </ul>
+
+
                 <h3>1.6.0</h3>
                 <ul>
                   <li><strong>NEW FEATURE: UAD Assistant</strong>
@@ -690,7 +707,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.6.0.dmg" length="35423876" type="application/octet-stream" sparkle:edSignature="vSDMCQm5WtusThrrU+2+w4kkAxvHyZ6QyFBDxPPgIJ17SHO6zQtvZPweb5o6I/yeDEMezJSKkAO70SMbaqNpCg=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.6.1.dmg" length="35613425" type="application/octet-stream" sparkle:edSignature="6qTrzbRE06u9eGgwoos0gkFuf5QOKD/mOOyRREfcxhjg2oJu6JKthpiyF5TVkLDPUcDWQx8Xa93Dtysrx9JMAw=="/>
         </item>
         
         <item>
