@@ -4,12 +4,45 @@
         <title>Plugin Station</title>
         
         <item>
-            <title>1.6.1</title>
-            <pubDate>Wed, 21 Oct 2026 17:22:32 -0700</pubDate>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
+            <title>1.6.2</title>
+            <pubDate>Thu, 12 Nov 2026 17:00:50 -0800</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h3>1.6.2</h3>
+                <ul>
+                  <li><strong>NEW FEATURE: System Warning For Plugins That Require Rosetta</strong>
+                    <ul>
+                      <li>In the System Warning tab, the user will now see a System Warning if they have any plugins installed that require Rosetta in order to run</li>
+                      <li>Rosetta is Apple's translation layer that allows apps built for Intel Macs to run on Apple Silicon Macs. Apple has supported Rosetta since macOS 11 (Big Sur), and they've announced that they will stop supporting it in Fall 2027 with the release of macOS 28. So, plugins that require Rosetta right now will not run on Apple Silicon Macs running macOS 28 or later unelss they receive an update with native Apple Silicon support</li>
+                      <li>Each manufacturer row in this System Warning contains a "Contact Support" button that, when clicked, automatically generates a message with all relevant system and plugin info that the user can send to the manufacturer's support team. The app will then give the user direct links to where they can send this message, either directly through email or through a support form on the manufacturer's website</li>
+                    </ul>
+                  </li>
+                  <li><strong>Miscellaneous Improvements</strong>
+                    <ul>
+                      <li>Plugin Station now detects newly installed DAWs, uninstalled DAWs, and updated DAWs automatically, just like it does for plugins. Manually rescanning DAWs is no longer required in order to detect installed DAW changes</li>
+                      <li>Selecting a plugin in the Installed Plugins tab or in the Browse Plugins tab now caches that plugin, resulting in much faster speeds when navigating between plugins the user has already loaded during their current session</li>
+                      <li>Significantly improve the speed at which many System Warning details screens load</li>
+                      <li>Present a "See More" button to view a comma-separated list of plugins if that list is more than 3 lines long</li>
+                      <li>Give the user the option to open the manufacturer's support page when they are generating a support message, even if the manufacturer has a direct support email</li>
+                      <li>System Warnings will now ignore/unignore plugins all at once in a single batch, instead of one at a time</li>
+                    </ul>
+                  </li>
+                  <li><strong>Bug Fixes</strong>
+                    <ul>
+                      <li>Fix a bug where scrolling through long System Warning lists would sometimes cause the app to freeze</li>
+                      <li>Fix a bug where switching sidebar tabs and scrolling through lists would appear laggy for some users</li>
+                      <li>Fix a bug where, after updating the user's account with detected plugin changes, the popup that shows the changes made would take a long time to load and to switch tabs if many changes were made</li>
+                      <li>Fix a bug where applying and removing tags from plugins was not applying the changes to all System Profiles on the user's account where that plugin was installed</li>
+                      <li>Fix a bug where it was not possible to tag a plugin from one System Profile if that tag was already applied to that plugin via another System Profile</li>
+                      <li>Fix a bug where it was possible for the app to create duplicate plugin entries under very rare circumstances, resulting in the app telling the user that they have installed plugin changes on every launch, even though they don't</li>
+                      <li>Stop showing the unsupported macOS version icon to users running macOS 27, as the app hasn't been updated to support it yet</li>
+                    </ul>
+                  </li>
+                </ul>
+
+
                 <h3>1.6.1</h3>
                 <ul>
                   <li><strong>NEW FEATURE: In-App Tutorial</strong>
@@ -707,7 +740,7 @@
                     <li>Thank you so much for being one of the first people to ever try Plugin Station, other than myself. After almost a year and a half of working on this app, it's surreal to finally get it out into the world. I'm so excited to hear your feedback. - Julian</li>
                 </ul>
             ]]></description>
-            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.6.1.dmg" length="35613425" type="application/octet-stream" sparkle:edSignature="6qTrzbRE06u9eGgwoos0gkFuf5QOKD/mOOyRREfcxhjg2oJu6JKthpiyF5TVkLDPUcDWQx8Xa93Dtysrx9JMAw=="/>
+            <enclosure url="https://github.com/julianworden/PluginStation/releases/download/public/Plugin.Station.1.6.2.dmg" length="36678813" type="application/octet-stream" sparkle:edSignature="z83sp3x8Gxp/hEtewMHJa4u3KqEPxfJdCoGD8LNFdB4sBgoprloed7de9B2S4jeiGhTqaUpubOMDWr7KGopBAA=="/>
         </item>
         
         <item>

@@ -4,6 +4,27 @@ A repository for hosting the public releases for Plugin Station, the audio indus
 ## Release Notes
 Here are the release notes for all public and beta versions of Plugin Station.
 
+### 1.6.2
+- **NEW FEATURE: System Warning For Plugins That Require Rosetta
+  - In the System Warning tab, the user will now see a System Warning if they have any plugins installed that require Rosetta in order to run
+  - Rosetta is Apple's translation layer that allows apps built for Intel Macs to run on Apple Silicon Macs. Apple has supported Rosetta since macOS 11 (Big Sur), and they've announced that they will stop supporting it in Fall 2027 with the release of macOS 28. So, plugins that require Rosetta right now will not run on Apple Silicon Macs running macOS 28 or later unelss they receive an update with native Apple Silicon support
+  - Each manufacturer row in this System Warning contains a "Contact Support" button that, when clicked, automatically generates a message with all relevant system and plugin info that the user can send to the manufacturer's support team. The app will then give the user direct links to where they can send this message, either directly through email or through a support form on the manufacturer's website
+- **Miscellaneous Improvements**
+  - Plugin Station now detects newly installed DAWs, uninstalled DAWs, and updated DAWs automatically, just like it does for plugins. Manually rescanning DAWs is no longer required in order to detect installed DAW changes
+  - Selecting a plugin in the Installed Plugins tab or in the Browse Plugins tab now caches that plugin, resulting in much faster speeds when navigating between plugins the user has already loaded during their current session
+  - Significantly improve the speed at which many System Warning details screens load
+  - Present a "See More" button to view a comma-separated list of plugins if that list is more than 3 lines long
+  - Give the user the option to open the manufacturer's support page when they are generating a support message, even if the manufacturer has a direct support email
+  - System Warnings will now ignore/unignore plugins all at once in a single batch, instead of one at a time
+- **Bug Fixes**
+  - Fix a bug where scrolling through long System Warning lists would sometimes cause the app to freeze 
+  - Fix a bug where switching sidebar tabs and scrolling through lists would appear laggy for some users
+  - Fix a bug where, after updating the user's account with detected plugin changes, the popup that shows the changes made would take a long time to load and to switch tabs if many changes were made
+  - Fix a bug where applying and removing tags from plugins was not applying the changes to all System Profiles on the user's account where that plugin was installed
+  - Fix a bug where it was not possible to tag a plugin from one System Profile if that tag was already applied to that plugin via another System Profile
+  - Fix a bug where it was possible for the app to create duplicate plugin entries under very rare circumstances, resulting in the app telling the user that they have installed plugin changes on every launch, even though they don't
+  - Stop showing the unsupported macOS version icon to users running macOS 27, as the app hasn't been updated to support it yet
+
 ### 1.6.1
 - **NEW FEATURE: In-App Tutorial**
   - Plugin Station now includes an in-app tutorial that walks new and existing users through how to use Plugin Station. New users will see the option to view this in-app tutorial/tour after completing onboarding for the first time, with the option to skip it. The first time an existing Plugin Station user runs this version of Plugin Station, they will see a popup asking if they'd like to take the tour
